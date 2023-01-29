@@ -1,0 +1,247 @@
+---
+title: "Combining with Supplemental Data"
+author: "Joshua D. Ingram"
+date: "2023-01-28"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(MASS)
+library(tidyverse)
+library(readr)
+chevron <- read_csv("/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/Investment_Data_Train_WIDE.csv")
+gdp <- read_csv("/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/SAGDP2N__ALL_AREAS_1997_2020.csv")
+employment <- read_csv("/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/CAEMP25N__ALL_AREAS_2001_2019.csv")
+```
+
+# Setting Up GDP data
+
+```{r}
+gdp$`2010` <- as.numeric(gdp$`2010`)
+gdp$`2011` <- as.numeric(gdp$`2011`)
+gdp$`2020` <- as.numeric(gdp$`2020`)
+
+# remove aggregate gdp for US
+gdp_sub <- gdp %>%
+  filter(GeoName %in% state.name)
+```
+
+```{r}
+gdp_long <- gdp_sub %>% pivot_longer(cols = c(`1997`, `1998`, `1999`, `2000`, `2001`, `2002`, `2003`, `2004`, `2005`, `2006`, `2007`, `2008`, `2009`, `2010`, `2011`, `2012`, `2013`, `2014`, `2015`, `2016`, `2017`, `2018`, `2019`, `2020`), 
+                         names_to = "year", 
+                         values_to = "gdp")
+
+gdp_long <- gdp_long %>% dplyr::select(GeoName, year, Description, gdp)
+colnames(gdp_long) <- c("State", "Year" , "Industry", "GDP")
+
+gdp_wide <- gdp_long %>% pivot_wider(names_from = Industry, values_from = GDP)
+
+gdp_wide <- gdp_wide %>% filter(Year < 2020)
+
+gdp_2020 <- read_csv("/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/gdp_2020.csv", skip = 3)
+
+# remove aggregate gdp for US
+gdp_2020_sub <- gdp_2020 %>%
+  filter(GeoName %in% state.name)
+
+gdp_2020_long <- gdp_2020_sub %>% pivot_longer(cols = c(`2020`), 
+                         names_to = "year", 
+                         values_to = "gdp")
+
+gdp_2020_long <- gdp_2020_long %>% dplyr::select(GeoName, year, Description, gdp)
+colnames(gdp_2020_long) <- c("State", "Year" , "Industry", "GDP")
+
+gdp_2020_wide <- gdp_2020_long %>% pivot_wider(names_from = Industry, values_from = GDP)
+
+gdp_2020_wide <- gdp_2020_wide %>% dplyr::select(!c("Addenda:"))
+
+gdp_wide <- rbind(gdp_wide, gdp_2020_wide)
+
+# NOTE: Need to select State levels that are full state names, no cities, etc
+
+```
+
+# Setting Up Employment data
+
+```{r}
+# remove aggregate employment for US
+employment_sub <- employment %>% 
+  filter(GeoName %in% state.name)
+
+employment_long <- employment_sub %>% pivot_longer(cols = c(`2001`, `2002`, `2003`, `2004`, `2005`, `2006`, `2007`, `2008`, `2009`, `2010`, `2011`, `2012`, `2013`, `2014`, `2015`, `2016`, `2017`, `2018`, `2019`), 
+                         names_to = "year", 
+                         values_to = "num_jobs")
+
+employment_long <- employment_long %>% dplyr::select(GeoName, year, Description, num_jobs)
+colnames(employment_long) <- c("State", "Year" , "Industry", "num_jobs")
+
+employment_wide <- employment_long %>% pivot_wider(names_from = Industry, values_from = num_jobs)
+
+employment_2020 <- read_csv("/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/employment_2020_correct.csv", skip = 3)
+
+employment_2020_sub <- employment_2020 %>% 
+  filter(GeoName %in% state.name)
+
+employment_2020_long <- employment_2020_sub %>% pivot_longer(cols = c(`2020`), 
+                         names_to = "year", 
+                         values_to = "num_jobs")
+
+employment_2020_long <- employment_2020_long %>% dplyr::select(GeoName, year, Description, num_jobs)
+colnames(employment_2020_long) <- c("State", "Year" , "Industry", "num_jobs")
+
+employment_2020_wide <- employment_2020_long %>% pivot_wider(names_from = Industry, values_from = num_jobs)
+
+employment_2020_wide <- employment_2020_wide %>% dplyr::select(!c("By type", "By industry", "Employment by place of work"))
+
+employment_wide <- rbind(employment_wide, employment_2020_wide)
+```
+
+# Combining Data
+
+```{r}
+join_supp <- full_join(employment_wide, gdp_wide, by = c("State", "Year"))
+join_supp$Year <- as.numeric(join_supp$Year)
+
+join_all <- full_join(chevron, join_supp, by = c("State", "Year"))
+
+final_data <- join_all %>% dplyr::select(!c(...1, StateYear))
+
+final_data <- final_data %>%
+  mutate_at(c(3:159), as.numeric)
+```
+
+```{r}
+# remove offshores, dc, united states... NOT WORKING
+final_data <- final_data %>% filter(State != "United States" |
+                        State != "Federal Offshore - Pacific" |
+                        State != "Federal Offshore - Gulf of Mexico" |
+                        State != "District of Columbia")
+
+# create region column
+state_region <- data.frame(state.name, state.region)
+colnames(state_region) <- c("State", "Region")
+final_data <- left_join(final_data, state_region, by = "State")
+```
+
+
+```{r}
+write.csv(final_data, "/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/chevron_economic.csv", row.names = FALSE)
+```
+
+```{r}
+View(cor(final_data[,-(1:2)], use = "complete.obs"))
+```
+
+# Adding Political Data to Economic Data
+
+```{r}
+economic <- read_csv("/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/chevron_economic.csv")
+governer <- read_csv("/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/Congress Data/Govn-State-PartyALLCLEAN.csv")
+congress <- read_csv("/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/Congress Data/Congress_Data_1999_2020.csv")
+
+colnames(congress) <- c("State", "Year", "Representative", "Senator")
+```
+
+```{r}
+join_all <- full_join(economic, governer, by = c("State", "Year"))
+
+new_data <- join_all %>% dplyr::select(!c(...1))
+
+new_data <- full_join(new_data, congress, by = c("State", "Year"))
+
+final_data <- new_data %>% filter(State != "United States" |
+                        State != "Federal Offshore - Pacific" |
+                        State != "Federal Offshore - Gulf of Mexico" |
+                        State != "District of Columbia")
+```
+
+```{r}
+final_data
+```
+
+
+```{r}
+write.csv(final_data, "/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/combined_training.csv", row.names = FALSE)
+```
+
+
+# Adding Median Household Income to Combined Data
+
+```{r}
+combined <- read_csv("/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/combined_training.csv")
+income <- read_csv("/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/medianhouseholdincome.csv")
+```
+```{r}
+final_data <- full_join(combined, income, by = c("State", "Year"))
+```
+
+
+```{r}
+write.csv(final_data, "/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/final_combined_training.csv", row.names = FALSE)
+```
+
+# Adding Population Data to Combined Data
+
+```{r}
+combined <- read_csv("/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/final_combined_training.csv")
+population_2010 <- read_csv("/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/population/pop_2000_2010_MELT.csv")
+population_2020 <- read_csv("/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/population/pop_2010_2020_MELT.csv")
+
+population_2010 <- population_2010 %>%
+  dplyr::select(!c(`...1`))
+
+population_2020 <- population_2020 %>%
+  dplyr::select(!c(`...1`))
+
+population_2010 <- population_2010 %>% filter(YEAR < 2010)
+
+population <- rbind(population_2010, population_2020)
+
+colnames(population) <- c("State", "Year", "Population")
+```
+
+```{r}
+final_data <- full_join(combined, population, by = c("State", "Year"))
+```
+
+
+```{r}
+write.csv(final_data, "/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/final2_combined_training.csv", row.names = FALSE)
+```
+
+# Adding Solar panel shipments
+
+```{r}
+combined <- read_csv("/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/final2_combined_training.csv")
+shipments <- read_csv("/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/Annual Photovoltaic Shipment by State - Sheet1.csv")
+
+colnames(shipments) <- c("Year", "State", "number_photovoltaic_shipments")
+
+final_data <- full_join(combined, shipments, by = c("State", "Year"))
+```
+
+```{r}
+write.csv(final_data, "/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/FINAL_combined_training.csv", row.names = FALSE)
+```
+
+# Random Model and Data Exploration
+
+```{r}
+View(cor(final_data[,-c(1, 2, 160, 161, 162)], use = "complete.obs"))
+```
+
+
+```{r}
+fit <- lm(TotalAmountofAssistance ~ ., data = final_data)
+summary(fit)
+
+stepAIC(fit)
+
+```
+
+```{r}
+ggplot(data = final_data, aes(x = Year, y = TotalAmountofAssistance, color = Region)) + geom_point()
+```
+

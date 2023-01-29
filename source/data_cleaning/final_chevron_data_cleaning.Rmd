@@ -1,0 +1,124 @@
+---
+title: "Chevron Data Cleaning"
+author: "Joshua D. Ingram"
+date: "2023-01-28"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(readr) 
+library(tidyverse)
+chevron <- read_csv("/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/FINAL_combined_training.csv")
+```
+
+# Remove Non-State rows
+
+```{r}
+chevron <- chevron %>% filter(State != "United States")
+chevron <- chevron %>% filter(State != "Federal Offshore - Pacific")
+chevron <- chevron %>% filter(State != "Federal Offshore - Gulf of Mexico")
+chevron <- chevron %>% filter(State != "District of Columbia")
+chevron <- chevron %>% filter(State != "Distric of Columbia")
+chevron <- chevron %>% filter(State != "Northeast Region")
+chevron <- chevron %>% filter(State != "Midwest Region")
+chevron <- chevron %>% filter(State != "South Region")
+chevron <- chevron %>% filter(State != "West Region")
+chevron <- chevron %>% filter(State != "Virgin Islands")
+chevron <- chevron %>% filter(State != "Puerto Rico")
+chevron <- chevron %>% filter(State != "Guam")
+chevron <- chevron %>% filter(State != "US Minor Outlying Islands")
+```
+
+# Remove Repeated Columns
+
+```{r}
+colnames(chevron) <- c("state","year","co2_emission","total_num_investments","total_amnt_assist","BDFDB","BDPRP","BFFDB","BFPRP","CLPRB","CLPRK","CLPRP","COPRK","EMFDB","ENPRP","GETCB","HYTCB","NCPRB","NGMPB","NGMPK","NGMPP","NUETB","PAPRB","PAPRP","REPRB","SOTCB","TEPRB","TETCB","WDEXB","WDPRB","WDTCB","WSTCB","WWPRB","WYTCB","employment_total","employment_wage_salary","employment_proprietors","employment_proprietors_farm","employment_proprietors_nonfarm","employment_farm","employment_nonfarm","employment_nonfarm_private","employment_forestry_fishing_related","employment_mining_quarrying_oil_gas","employment_utilities","employment_contrsuction","employment_manufacturing","employment_wholesale_trade","employment_retail_trade","employment_transportation_warehousing","employment_information","employment_finance_insurance","employment_real_estate_rental_leasing","employment_professional_scientific_technical","employment_management_companies","employment_administrative_support_waste_remediation","employment_educational","employment_healh_care","employment_arts_entertainment_recreation","employment_accommodation_food","employment_other_services","employment_government_gov_enterprises","employment_federal_civilian","employment_military","employment_state_local","employment_state","employment_local","gdp_all_industry_total","gdp_private_industries","gdp_agriculture_forestry_fishing_hunting","gdp_farms","gdp_forestry_fishing_related","gdp_mining_quarrying_oil_gas","gdp_oil_gas",'gdp_mining',"gdp_support_activities_mining","gdp_utlilities","gdp_construction","gdp_manufacturing","gdp_durable_goods_manufacturing","gdp_wood_product_manufacturing","gdp_nonmetallic_mineral_product_manufacturing","gdp_primary_metal_manufacturing","gdp_fabricated_metal_product_manufacturing","gdp_machinery_manufacturing","gdp_computer_electronic_manufacturing","gdp_electrical_equipment_appliance_manufacturing","gdp_vehicles_trailers_parts_manufacturing","gdp_other_transportation_equipment_manufacturing","gdp_furniture_manufacturing","gdp_miscellaneous_manufacturing","gdp_nondurable_goods_manufacturing","gdp_food_beverage_tabacco_manufacturing","gdp_textile","gdp_apparel_manufacturing","gdp_paper_manufacturing","gdp_printing","gdp_petroleum_coal_manufacturing","gdp_chemical_manufacturing","gdp_plastics_rubber_manufacturing",'gdp_wholesale_trade',"gdp_retail_trade","gdp_transportation_warehousing","gdp_air_transportation","gdp_rail_transportation","gdp_water_trasnportation","gdp_truck_transportation","gdp_ground_passenger_transportation","gdp_pipeline_transportation","gdp_other_transportation","gdp_warehousing","gdp_information","gdp_publishing_industries","gdp_motion_pictures","gdp_broadcasting","gdp_data_processing_hosting","gdp_finance_insurance_real_estate","gdp_finance_insurance","gdp_monetary_authorities","gdp_securities_contracts",'gdp_insurance_carriers',"gdp_funds_trusts",'gdp_real_estate_rental_leasing',"gdp_real_estate","gdp_rental_leasing","gdp_professional_business","gdp_professional_scientific_technical",'gdp_legal',"gdp_computer_systems_design","gdp_misc_professional_scientific","gdp_management_companies_enterprises","gdp_administrative_support_waste","gdp_administrative_support",'gdp_waste_remediation',"gdp_educational_health_social",'gdp_educational',"gdp_health_care_social","gdp_ambulatory_health",'gdp_hospitals',"gdp_nursing","gdp_social_assistance","gdp_arts_entertainment_recreation_accommodation_food","gdp_arts_entertainment_recreation","gdp_performing_arts_spectator_sports_museums","gdp_amusement_gambling","gdp_accommodation_food","gdp_accommodation","gdp_food_services",'gdp_other_services',"gdp_government_gov_enterprises",'gdp_federal_civilian',"gdp_military","gdp_state_local","gdp_natural_resources_mining","gdp_trade","gdp_transportation_utlities","gdp_manufacturing_information","gdp_goods_producing_industries","gdp_services_providing_industries","region","party_governer","party_prop_representative","party_prop_senator","median_household_income","population", "number_photovoltaic_shipments")
+
+```
+
+# Selecting Years
+
+```{r}
+# remove rows with missing years
+chevron <- chevron[-which(is.na(chevron$year) == TRUE), ]
+chevron <- chevron %>% filter(year %in% 2015:2019)
+```
+
+# Exploring Data as Time Series Object
+
+```{r}
+library(fpp3)
+chevron_time <- chevron %>% as_tsibble(index = year, key = state)
+```
+
+
+```{r}
+autoplot(chevron_time, employment_total)
+
+ggplot(data = chevron_time, aes(x = year, y = total_amnt_assist)) + geom_point()
+
+View(cor(chevron_time[,-c(1,160)], use = "complete.obs"))
+```
+
+```{r}
+fit <- lm(total_amnt_assist ~ .-state-region, data = chevron)
+stepAIC(fit)
+```
+
+# Testing Dataset
+
+```{r}
+train <- read_csv("/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/TestData/Investment_Data_2020_WIDE.csv")
+
+train <- train  %>%
+  dplyr::select(!c(`...1`, StateYear))
+
+colnames(train) <- c("state","year","co2_emission","total_num_investments","total_amnt_assist","BDFDB","BDPRP","BFFDB","BFPRP","CLPRB","CLPRK","CLPRP","COPRK","EMFDB","ENPRP","GETCB","HYTCB","NCPRB","NGMPB","NGMPK","NGMPP","NUETB","PAPRB","PAPRP","REPRB","SOTCB","TEPRB","TETCB","WDEXB","WDPRB","WDTCB","WSTCB","WWPRB","WYTCB")
+
+chevron_2020 <- read_csv("/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/FINAL_combined_training.csv")
+chevron_2020 <- chevron_2020 %>% filter(Year == 2020)
+chevron_2020 <- chevron_2020 %>% filter(State != "United States")
+chevron_2020 <- chevron_2020 %>% filter(State != "Federal Offshore - Pacific")
+chevron_2020 <- chevron_2020 %>% filter(State != "Federal Offshore - Gulf of Mexico")
+chevron_2020 <- chevron_2020 %>% filter(State != "District of Columbia")
+chevron_2020 <- chevron_2020 %>% filter(State != "Distric of Columbia")
+chevron_2020 <- chevron_2020 %>% filter(State != "Northeast Region")
+chevron_2020 <- chevron_2020 %>% filter(State != "Midwest Region")
+chevron_2020 <- chevron_2020 %>% filter(State != "South Region")
+chevron_2020 <- chevron_2020 %>% filter(State != "West Region")
+chevron_2020 <- chevron_2020 %>% filter(State != "Virgin Islands")
+chevron_2020 <- chevron_2020 %>% filter(State != "Puerto Rico")
+chevron_2020 <- chevron_2020 %>% filter(State != "Guam")
+chevron_2020 <- chevron_2020 %>% filter(State != "US Minor Outlying Islands")
+
+colnames(chevron_2020) <- c("state","year","co2_emission","total_num_investments","total_amnt_assist","BDFDB","BDPRP","BFFDB","BFPRP","CLPRB","CLPRK","CLPRP","COPRK","EMFDB","ENPRP","GETCB","HYTCB","NCPRB","NGMPB","NGMPK","NGMPP","NUETB","PAPRB","PAPRP","REPRB","SOTCB","TEPRB","TETCB","WDEXB","WDPRB","WDTCB","WSTCB","WWPRB","WYTCB","employment_total","employment_wage_salary","employment_proprietors","employment_proprietors_farm","employment_proprietors_nonfarm","employment_farm","employment_nonfarm","employment_nonfarm_private","employment_forestry_fishing_related","employment_mining_quarrying_oil_gas","employment_utilities","employment_contrsuction","employment_manufacturing","employment_wholesale_trade","employment_retail_trade","employment_transportation_warehousing","employment_information","employment_finance_insurance","employment_real_estate_rental_leasing","employment_professional_scientific_technical","employment_management_companies","employment_administrative_support_waste_remediation","employment_educational","employment_healh_care","employment_arts_entertainment_recreation","employment_accommodation_food","employment_other_services","employment_government_gov_enterprises","employment_federal_civilian","employment_military","employment_state_local","employment_state","employment_local","gdp_all_industry_total","gdp_private_industries","gdp_agriculture_forestry_fishing_hunting","gdp_farms","gdp_forestry_fishing_related","gdp_mining_quarrying_oil_gas","gdp_oil_gas",'gdp_mining',"gdp_support_activities_mining","gdp_utlilities","gdp_construction","gdp_manufacturing","gdp_durable_goods_manufacturing","gdp_wood_product_manufacturing","gdp_nonmetallic_mineral_product_manufacturing","gdp_primary_metal_manufacturing","gdp_fabricated_metal_product_manufacturing","gdp_machinery_manufacturing","gdp_computer_electronic_manufacturing","gdp_electrical_equipment_appliance_manufacturing","gdp_vehicles_trailers_parts_manufacturing","gdp_other_transportation_equipment_manufacturing","gdp_furniture_manufacturing","gdp_miscellaneous_manufacturing","gdp_nondurable_goods_manufacturing","gdp_food_beverage_tabacco_manufacturing","gdp_textile","gdp_apparel_manufacturing","gdp_paper_manufacturing","gdp_printing","gdp_petroleum_coal_manufacturing","gdp_chemical_manufacturing","gdp_plastics_rubber_manufacturing",'gdp_wholesale_trade',"gdp_retail_trade","gdp_transportation_warehousing","gdp_air_transportation","gdp_rail_transportation","gdp_water_trasnportation","gdp_truck_transportation","gdp_ground_passenger_transportation","gdp_pipeline_transportation","gdp_other_transportation","gdp_warehousing","gdp_information","gdp_publishing_industries","gdp_motion_pictures","gdp_broadcasting","gdp_data_processing_hosting","gdp_finance_insurance_real_estate","gdp_finance_insurance","gdp_monetary_authorities","gdp_securities_contracts",'gdp_insurance_carriers',"gdp_funds_trusts",'gdp_real_estate_rental_leasing',"gdp_real_estate","gdp_rental_leasing","gdp_professional_business","gdp_professional_scientific_technical",'gdp_legal',"gdp_computer_systems_design","gdp_misc_professional_scientific","gdp_management_companies_enterprises","gdp_administrative_support_waste","gdp_administrative_support",'gdp_waste_remediation',"gdp_educational_health_social",'gdp_educational',"gdp_health_care_social","gdp_ambulatory_health",'gdp_hospitals',"gdp_nursing","gdp_social_assistance","gdp_arts_entertainment_recreation_accommodation_food","gdp_arts_entertainment_recreation","gdp_performing_arts_spectator_sports_museums","gdp_amusement_gambling","gdp_accommodation_food","gdp_accommodation","gdp_food_services",'gdp_other_services',"gdp_government_gov_enterprises",'gdp_federal_civilian',"gdp_military","gdp_state_local","gdp_natural_resources_mining","gdp_trade","gdp_transportation_utlities","gdp_manufacturing_information","gdp_goods_producing_industries","gdp_services_providing_industries","region","party_governer","party_prop_representative","party_prop_senator","median_household_income","population", "number_photovoltaic_shipments")
+```
+
+```{r}
+chevron_2020 <- chevron_2020 %>% dplyr::select(!c(co2_emission,total_num_investments,total_amnt_assist,BDFDB,BDPRP,BFFDB,BFPRP,CLPRB,CLPRK,CLPRP,COPRK,EMFDB,ENPRP,GETCB,HYTCB,NCPRB,NGMPB,NGMPK,NGMPP,NUETB,PAPRB,PAPRP,REPRB,SOTCB,TEPRB,TETCB,WDEXB,WDPRB,WDTCB,WSTCB,WWPRB,WYTCB))
+join_train <- full_join(train, chevron_2020, by = c("state", "year"))
+join_train <- join_train %>% filter(state != "United States")
+join_train <- join_train %>% filter(state != "District of Columbia")
+```
+
+```{r}
+write.csv(join_train, "/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/FINAL_combined_test.csv", row.names = FALSE)
+```
+
+# Removing Columns
+
+```{r}
+# training data
+train_data <- chevron %>% dplyr::select(!c(region))
+
+write.csv(train_data, "/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/CLEAN_train.csv", row.names = FALSE)
+```
+
+```{r}
+# training data
+test_data <- join_train %>% dplyr::select(!c(region))
+
+write.csv(test_data, "/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/CLEAN_test.csv", row.names = FALSE)
+```

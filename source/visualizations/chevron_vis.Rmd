@@ -1,0 +1,95 @@
+---
+title: "chevron_vis"
+output: html_document
+date: "2023-01-29"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+Clean_Train <- read.csv("C:/Users/15639/Documents/chevron/CLEAN_train.csv")
+```
+
+```{r}
+View(Clean_Train)
+```
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(plotly)
+library(usmap)
+library(gganimate)
+library(gifski)
+```
+```{r}
+t10us_map_co2_asst <- Clean_Train %>%
+  select(state, year, total_amnt_assist, co2_emission, total_num_investments) %>%
+  arrange(desc(total_amnt_assist)) %>%
+  head(10)
+t10us_map_co2_asst
+
+ggplot(t10us_map_co2_asst, aes(x=year, y=total_amnt_assist, size=co2_emission)) + geom_point() +  
+  expand_limits(y=0) + facet_wrap(~state)
+
+```
+```{r}
+l10us_map_co2_asst <- Clean_Train %>%
+  select(state, year, total_amnt_assist, co2_emission, total_num_investments) %>%
+  arrange(total_amnt_assist) %>%
+  head(10)
+View(l10us_map_co2_asst)
+
+ggplot(l10us_map_co2_asst, aes(x=year, y=total_amnt_assist, size=co2_emission)) + geom_point() +  
+  expand_limits(y=0) + facet_wrap(~state)
+
+```
+
+
+```{r}
+# us map with size = total amount invested in 2015
+us_map_2015 <- Clean_Train %>%
+  filter(year == 2015) %>%
+  select(state, total_amnt_assist)
+#View(us_map_2015)
+```
+
+
+```{r}
+# Total Assistance Amount in 2015
+us_map_2015$state <- as.factor(us_map_2015$state)
+ggplotly(plot_usmap(data=us_map_2015, values="total_amnt_assist", color="grey") + scale_fill_gradient(low="white", high="black") 
++ labs(title="Total Amount of Assistance by State in 2015", fill="total_amnt_assist"))
+
+```
+
+```{r}
+# Total Assistance Amount in 2019
+us_map_2019 <- Clean_Train %>%
+  filter(year == 2019) %>%
+  select(state, total_amnt_assist)
+
+us_map_2019$state <- as.factor(us_map_2019$state)
+ggplotly(plot_usmap(data=us_map_2019, values="total_amnt_assist", color="grey") + scale_fill_gradient(low="white", high="black") 
++ labs(title="Total Amount of Assistance by State in 2019", fill="total_amnt_assist"))
+```
+
+```{r}
+corre <- Clean_Train %>%
+  select(state, year, total_amnt_assist, co2_emission, total_num_investments)
+  ggplot(year, total_amnt_assist)
+```
+
+
+
+
+
+
+
+
+
+
+
+

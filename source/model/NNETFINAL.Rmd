@@ -1,0 +1,121 @@
+---
+title: "netural net"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# install.packages("keras")
+# install.packages("mlbench")
+# install.packages("magrittr")
+# install.packages("neuralnet")
+library(keras)
+library(mlbench)
+library(dplyr)
+library(magrittr)
+library(neuralnet)
+library(tensorflow)
+```
+
+```{r}
+test <- read.csv("Chevron/CLEAN_test.csv")
+train <- read.csv("Chevron/CLEAN_train.csv")
+```
+
+```{r}
+# col_names <- c(
+#   "co2_emission",
+#   "employment_total",
+#   "employment_wage_salary",
+#   "party_prop_representative",
+#   "TETCB",
+#   "SOTCB",
+#   "WWPRB",
+#   "REPRB",
+#   "GETCB"
+# )
+
+train_data <- train %>% select_if(~ !any(is.na(.)))
+
+test_data <- test %>% select_if(~ !any(is.na(.)))
+
+same_cols <- intersect(names(test_data), names(train_data)) 
+test.split  <- test_data[,same_cols]
+train.split <-train_data[,same_cols]
+
+# test.split  <- test_data[,col_names]
+# train.split <- train_data[,col_names]
+```
+
+```{r}
+# set.seed(1234)
+
+
+train <- as.matrix(train.split[,-c(1,2,3,4,5)])
+test <- as.matrix(test.split[,-c(1,2,3,4,5)])
+# train <- as.matrix(train.split)
+# test <- as.matrix(test.split)
+traintarget <- train_data[,5]
+testtarget <- test_data[,5]
+
+dimnames(train)<- NULL
+dimnames(test) <- NULL
+```
+
+
+```{r}
+m <- colMeans(train)
+s <- apply(train, 2, sd)
+training <- scale(train, center = m, scale = s)
+# test <- scale(test, center = m, scale = s)
+
+```
+
+
+```{r}
+model <- keras_model_sequential()
+model %>%
+         layer_dense(units = 6, activation = 'relu', input_shape = c(97)) %>%
+         layer_dense(units = 1)
+```
+
+```{r}
+model %>% compile(loss = 'mse',
+optimizer = 'rmsprop', 
+metrics = 'mae') 
+```
+
+
+```{r}
+mymodel <- model %>%          
+fit(train,traintarget,
+             epochs = 1000,
+             batch_size = 16,
+            validation_split = 0.2)
+```
+
+```{r}
+model %>% evaluate(test, testtarget)
+pred <- model %>% predict(test)
+```
+```{r}
+# install.packages("plotly")
+library(plotly)
+plot(testtarget, pred) 
+abline(a=0, b=1)
+```
+
+```{r}
+library(Metrics)
+metric = metric_mean_squared_error(testtarget,pred)
+
+metric2 = metric_mean_absolute_percentage_error(testtarget, pred)
+
+rmse(testtarget, pred)
+
+```
+

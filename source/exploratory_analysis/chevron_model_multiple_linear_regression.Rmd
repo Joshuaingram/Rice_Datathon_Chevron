@@ -1,0 +1,416 @@
+---
+title: "Chevron Multiple Linear Regression Model"
+author: "Joshua D. Ingram"
+date: "2023-01-29"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(readr)
+```
+
+# Data Preparation
+
+```{r}
+train <- read_csv("/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/CLEAN_train.csv")
+train$state <- as.factor(train$state)
+
+head(train)
+summary(train)
+```
+
+```{r}
+na_count <-sapply(train, function(y) sum(length(which(is.na(y)))))
+na_count <- data.frame(na_count)
+
+train <- train %>% select_if(~ !any(is.na(.)))
+```
+
+# Fit1 - Linear Regression Model - All Variables
+
+```{r}
+fit1 <- lm(total_amnt_assist ~ ., data = train)
+summary(fit1)
+```
+
+# Fit2 - Linear Regression Model - Backward Variable Selection from Fit1 (AIC)
+
+```{r}
+step(fit1)
+fit2 <- lm(formula = total_amnt_assist ~ state + co2_emission + total_num_investments + 
+    BDFDB + BDPRP + BFFDB + CLPRB + CLPRK + CLPRP + ENPRP + HYTCB + 
+    NCPRB + NGMPB + NGMPK + NGMPP + NUETB + PAPRB + PAPRP + SOTCB + 
+    TEPRB + TETCB + WDEXB + WDPRB + WDTCB + WSTCB + WWPRB + WYTCB + 
+    employment_wage_salary + employment_proprietors_farm + employment_farm + 
+    employment_nonfarm_private + employment_wholesale_trade + 
+    employment_transportation_warehousing + employment_information + 
+    employment_real_estate_rental_leasing + employment_professional_scientific_technical + 
+    employment_management_companies + employment_administrative_support_waste_remediation + 
+    employment_arts_entertainment_recreation + employment_state + 
+    gdp_all_industry_total + gdp_private_industries + gdp_agriculture_forestry_fishing_hunting + 
+    gdp_farms + gdp_forestry_fishing_related + gdp_mining_quarrying_oil_gas + 
+    gdp_mining + gdp_utlilities + gdp_construction + gdp_manufacturing + 
+    gdp_durable_goods_manufacturing + gdp_wood_product_manufacturing + 
+    gdp_nonmetallic_mineral_product_manufacturing + gdp_primary_metal_manufacturing + 
+    gdp_fabricated_metal_product_manufacturing + gdp_machinery_manufacturing + 
+    gdp_computer_electronic_manufacturing + gdp_electrical_equipment_appliance_manufacturing + 
+    gdp_vehicles_trailers_parts_manufacturing + gdp_other_transportation_equipment_manufacturing + 
+    gdp_furniture_manufacturing + gdp_miscellaneous_manufacturing + 
+    gdp_food_beverage_tabacco_manufacturing + gdp_textile + gdp_apparel_manufacturing + 
+    gdp_paper_manufacturing + gdp_printing + gdp_petroleum_coal_manufacturing + 
+    gdp_chemical_manufacturing + gdp_plastics_rubber_manufacturing + 
+    gdp_wholesale_trade + gdp_retail_trade + gdp_transportation_warehousing + 
+    gdp_air_transportation + gdp_truck_transportation + gdp_other_transportation + 
+    gdp_warehousing + gdp_information + gdp_publishing_industries + 
+    gdp_motion_pictures + gdp_broadcasting + gdp_data_processing_hosting + 
+    gdp_finance_insurance_real_estate + gdp_finance_insurance + 
+    gdp_monetary_authorities + gdp_securities_contracts + gdp_insurance_carriers + 
+    gdp_funds_trusts + gdp_real_estate + gdp_rental_leasing + 
+    gdp_misc_professional_scientific + gdp_management_companies_enterprises + 
+    gdp_administrative_support_waste + gdp_administrative_support + 
+    gdp_waste_remediation + gdp_educational_health_social + gdp_educational + 
+    gdp_health_care_social + gdp_ambulatory_health + gdp_hospitals + 
+    gdp_nursing + gdp_social_assistance + gdp_arts_entertainment_recreation_accommodation_food + 
+    gdp_performing_arts_spectator_sports_museums + gdp_amusement_gambling + 
+    gdp_accommodation + gdp_food_services + gdp_government_gov_enterprises + 
+    gdp_federal_civilian + gdp_state_local + gdp_natural_resources_mining + 
+    gdp_trade + gdp_transportation_utlities + gdp_manufacturing_information + 
+    gdp_goods_producing_industries + party_governer + party_prop_representative + 
+    party_prop_senator + population, data = train)
+summary(fit2)
+```
+
+```{r}
+fit2 <- lm(formula = total_amnt_assist ~ state + co2_emission + total_num_investments + 
+    BDFDB + BDPRP + BFFDB + CLPRB + CLPRK + CLPRP + ENPRP + HYTCB + 
+    NCPRB + NGMPB + NGMPK + NGMPP + NUETB + PAPRB + PAPRP + SOTCB + 
+    TEPRB + TETCB + WDEXB + WDPRB + WDTCB + WSTCB + WWPRB + WYTCB + 
+    employment_wage_salary + employment_proprietors_farm + employment_farm + 
+    employment_nonfarm_private + employment_wholesale_trade + 
+    employment_transportation_warehousing + employment_information + 
+    employment_real_estate_rental_leasing + employment_professional_scientific_technical + 
+    employment_management_companies + employment_administrative_support_waste_remediation + 
+    employment_arts_entertainment_recreation + employment_state + 
+    gdp_all_industry_total + gdp_private_industries + gdp_agriculture_forestry_fishing_hunting + 
+    gdp_farms + gdp_forestry_fishing_related + gdp_mining_quarrying_oil_gas + 
+    gdp_mining + gdp_utlilities + gdp_construction + gdp_manufacturing + 
+    gdp_durable_goods_manufacturing + gdp_wood_product_manufacturing + 
+    gdp_nonmetallic_mineral_product_manufacturing + gdp_primary_metal_manufacturing + 
+    gdp_fabricated_metal_product_manufacturing + gdp_machinery_manufacturing + 
+    gdp_computer_electronic_manufacturing + gdp_electrical_equipment_appliance_manufacturing + 
+    gdp_vehicles_trailers_parts_manufacturing + gdp_other_transportation_equipment_manufacturing + 
+    gdp_furniture_manufacturing + gdp_miscellaneous_manufacturing + 
+    gdp_food_beverage_tabacco_manufacturing + gdp_textile + gdp_apparel_manufacturing + 
+    gdp_paper_manufacturing + gdp_printing + gdp_petroleum_coal_manufacturing + 
+    gdp_chemical_manufacturing + gdp_plastics_rubber_manufacturing + 
+    gdp_wholesale_trade + gdp_retail_trade + gdp_transportation_warehousing + 
+    gdp_air_transportation + gdp_truck_transportation + gdp_other_transportation + 
+    gdp_warehousing + gdp_information + gdp_publishing_industries + 
+    gdp_motion_pictures + gdp_broadcasting + gdp_data_processing_hosting + 
+    gdp_finance_insurance_real_estate + gdp_finance_insurance + 
+    gdp_monetary_authorities + gdp_securities_contracts + gdp_insurance_carriers + 
+    gdp_funds_trusts + gdp_real_estate + gdp_rental_leasing + 
+    gdp_misc_professional_scientific + gdp_management_companies_enterprises + 
+    gdp_administrative_support_waste + gdp_administrative_support + 
+    gdp_waste_remediation + gdp_educational_health_social + gdp_educational + 
+    gdp_health_care_social + gdp_ambulatory_health + gdp_hospitals + 
+    gdp_nursing + gdp_social_assistance + gdp_arts_entertainment_recreation_accommodation_food + 
+    gdp_performing_arts_spectator_sports_museums + gdp_amusement_gambling + 
+    gdp_accommodation + gdp_food_services + gdp_government_gov_enterprises + 
+    gdp_federal_civilian + gdp_state_local + gdp_natural_resources_mining + 
+    gdp_trade + gdp_transportation_utlities + gdp_manufacturing_information + 
+    gdp_goods_producing_industries + party_governer + party_prop_representative + 
+    party_prop_senator + population, data = train)
+summary(fit2)
+```
+
+```{r}
+plot(fit2)
+# bad residuals vs fitted plot
+```
+
+
+
+# Fit3 - Linear Regression Model - Log Response in Fit2
+
+```{r}
+fit3 <- lm(formula = log(total_amnt_assist) ~ state + co2_emission + total_num_investments + 
+    BDFDB + BDPRP + BFFDB + CLPRB + CLPRK + CLPRP + ENPRP + HYTCB + 
+    NCPRB + NGMPB + NGMPK + NGMPP + NUETB + PAPRB + PAPRP + SOTCB + 
+    TEPRB + TETCB + WDEXB + WDPRB + WDTCB + WSTCB + WWPRB + WYTCB + 
+    employment_wage_salary + employment_proprietors_farm + employment_farm + 
+    employment_nonfarm_private + employment_wholesale_trade + 
+    employment_transportation_warehousing + employment_information + 
+    employment_real_estate_rental_leasing + employment_professional_scientific_technical + 
+    employment_management_companies + employment_administrative_support_waste_remediation + 
+    employment_arts_entertainment_recreation + employment_state + 
+    gdp_all_industry_total + gdp_private_industries + gdp_agriculture_forestry_fishing_hunting + 
+    gdp_farms + gdp_forestry_fishing_related + gdp_mining_quarrying_oil_gas + 
+    gdp_mining + gdp_utlilities + gdp_construction + gdp_manufacturing + 
+    gdp_durable_goods_manufacturing + gdp_wood_product_manufacturing + 
+    gdp_nonmetallic_mineral_product_manufacturing + gdp_primary_metal_manufacturing + 
+    gdp_fabricated_metal_product_manufacturing + gdp_machinery_manufacturing + 
+    gdp_computer_electronic_manufacturing + gdp_electrical_equipment_appliance_manufacturing + 
+    gdp_vehicles_trailers_parts_manufacturing + gdp_other_transportation_equipment_manufacturing + 
+    gdp_furniture_manufacturing + gdp_miscellaneous_manufacturing + 
+    gdp_food_beverage_tabacco_manufacturing + gdp_textile + gdp_apparel_manufacturing + 
+    gdp_paper_manufacturing + gdp_printing + gdp_petroleum_coal_manufacturing + 
+    gdp_chemical_manufacturing + gdp_plastics_rubber_manufacturing + 
+    gdp_wholesale_trade + gdp_retail_trade + gdp_transportation_warehousing + 
+    gdp_air_transportation + gdp_truck_transportation + gdp_other_transportation + 
+    gdp_warehousing + gdp_information + gdp_publishing_industries + 
+    gdp_motion_pictures + gdp_broadcasting + gdp_data_processing_hosting + 
+    gdp_finance_insurance_real_estate + gdp_finance_insurance + 
+    gdp_monetary_authorities + gdp_securities_contracts + gdp_insurance_carriers + 
+    gdp_funds_trusts + gdp_real_estate + gdp_rental_leasing + 
+    gdp_misc_professional_scientific + gdp_management_companies_enterprises + 
+    gdp_administrative_support_waste + gdp_administrative_support + 
+    gdp_waste_remediation + gdp_educational_health_social + gdp_educational + 
+    gdp_health_care_social + gdp_ambulatory_health + gdp_hospitals + 
+    gdp_nursing + gdp_social_assistance + gdp_arts_entertainment_recreation_accommodation_food + 
+    gdp_performing_arts_spectator_sports_museums + gdp_amusement_gambling + 
+    gdp_accommodation + gdp_food_services + gdp_government_gov_enterprises + 
+    gdp_federal_civilian + gdp_state_local + gdp_natural_resources_mining + 
+    gdp_trade + gdp_transportation_utlities + gdp_manufacturing_information + 
+    gdp_goods_producing_industries + party_governer + party_prop_representative + 
+    party_prop_senator + population, data = train)
+summary(fit3)
+```
+
+```{r}
+plot(fit3)
+# residuals vs fitted plot is reasonable, same with QQ plot
+```
+
+# Fit4 - Linear Regression Model - Backward Variable Selection for Fit3 (AIC)
+
+```{r}
+step(fit3)
+```
+
+```{r}
+fit4 <- lm(formula = log(total_amnt_assist) ~ state + total_num_investments + 
+    BDFDB + CLPRK + CLPRP + HYTCB + NCPRB + NGMPB + NUETB + SOTCB + 
+    TEPRB + WDEXB + WDPRB + WDTCB + WSTCB + WWPRB + WYTCB + employment_wage_salary + 
+    employment_proprietors_farm + employment_farm + employment_transportation_warehousing + 
+    employment_information + employment_real_estate_rental_leasing + 
+    employment_professional_scientific_technical + employment_management_companies + 
+    employment_administrative_support_waste_remediation + employment_arts_entertainment_recreation + 
+    employment_state + gdp_all_industry_total + gdp_private_industries + 
+    gdp_agriculture_forestry_fishing_hunting + gdp_farms + gdp_mining_quarrying_oil_gas + 
+    gdp_mining + gdp_construction + gdp_manufacturing + gdp_durable_goods_manufacturing + 
+    gdp_wood_product_manufacturing + gdp_nonmetallic_mineral_product_manufacturing + 
+    gdp_primary_metal_manufacturing + gdp_fabricated_metal_product_manufacturing + 
+    gdp_machinery_manufacturing + gdp_computer_electronic_manufacturing + 
+    gdp_electrical_equipment_appliance_manufacturing + gdp_vehicles_trailers_parts_manufacturing + 
+    gdp_other_transportation_equipment_manufacturing + gdp_furniture_manufacturing + 
+    gdp_miscellaneous_manufacturing + gdp_food_beverage_tabacco_manufacturing + 
+    gdp_textile + gdp_apparel_manufacturing + gdp_paper_manufacturing + 
+    gdp_printing + gdp_petroleum_coal_manufacturing + gdp_chemical_manufacturing + 
+    gdp_plastics_rubber_manufacturing + gdp_retail_trade + gdp_air_transportation + 
+    gdp_truck_transportation + gdp_other_transportation + gdp_warehousing + 
+    gdp_information + gdp_motion_pictures + gdp_data_processing_hosting + 
+    gdp_finance_insurance_real_estate + gdp_finance_insurance + 
+    gdp_monetary_authorities + gdp_securities_contracts + gdp_insurance_carriers + 
+    gdp_funds_trusts + gdp_real_estate + gdp_rental_leasing + 
+    gdp_misc_professional_scientific + gdp_management_companies_enterprises + 
+    gdp_administrative_support + gdp_educational_health_social + 
+    gdp_educational + gdp_health_care_social + gdp_ambulatory_health + 
+    gdp_hospitals + gdp_nursing + gdp_social_assistance + gdp_performing_arts_spectator_sports_museums + 
+    gdp_accommodation + gdp_food_services + gdp_government_gov_enterprises + 
+    gdp_state_local + gdp_trade + gdp_transportation_utlities + 
+    gdp_manufacturing_information + gdp_goods_producing_industries + 
+    party_governer + party_prop_representative + party_prop_senator + 
+    population, data = train)
+
+summary(fit4)
+```
+
+```{r}
+plot(fit4)
+```
+
+# Using Fit4 for Test Set
+
+```{r}
+test <- read_csv("/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/CLEAN_test.csv")
+test$state <- as.factor(test$state)
+
+test <- test %>% dplyr::select(total_amnt_assist,state,total_num_investments,BDFDB,CLPRK,CLPRP,HYTCB,NCPRB,NGMPB,NUETB,SOTCB,TEPRB,WDEXB,WDPRB,WDTCB,WSTCB,WWPRB,WYTCB,employment_wage_salary,employment_proprietors_farm,employment_farm,employment_transportation_warehousing,employment_information,employment_real_estate_rental_leasing,employment_professional_scientific_technical,employment_management_companies,employment_administrative_support_waste_remediation,employment_arts_entertainment_recreation, employment_state,gdp_all_industry_total,gdp_private_industries,gdp_agriculture_forestry_fishing_hunting,gdp_farms,gdp_mining_quarrying_oil_gas,gdp_mining,gdp_construction,gdp_manufacturing,gdp_durable_goods_manufacturing,gdp_wood_product_manufacturing,gdp_nonmetallic_mineral_product_manufacturing,gdp_primary_metal_manufacturing,gdp_fabricated_metal_product_manufacturing,gdp_machinery_manufacturing,gdp_computer_electronic_manufacturing,gdp_electrical_equipment_appliance_manufacturing,gdp_vehicles_trailers_parts_manufacturing,gdp_other_transportation_equipment_manufacturing,gdp_furniture_manufacturing,gdp_miscellaneous_manufacturing,gdp_food_beverage_tabacco_manufacturing,gdp_textile,gdp_apparel_manufacturing,gdp_paper_manufacturing,gdp_printing,gdp_petroleum_coal_manufacturing,gdp_chemical_manufacturing,gdp_plastics_rubber_manufacturing,gdp_retail_trade,gdp_air_transportation,gdp_truck_transportation,gdp_other_transportation,gdp_warehousing,gdp_information,gdp_motion_pictures,gdp_data_processing_hosting,gdp_finance_insurance_real_estate,gdp_finance_insurance,gdp_monetary_authorities,gdp_securities_contracts,gdp_insurance_carriers,gdp_funds_trusts,gdp_real_estate,gdp_rental_leasing,gdp_misc_professional_scientific,gdp_management_companies_enterprises,gdp_administrative_support,gdp_educational_health_social,gdp_educational,gdp_health_care_social,gdp_ambulatory_health,gdp_hospitals,gdp_nursing,gdp_social_assistance,gdp_performing_arts_spectator_sports_museums,gdp_accommodation,gdp_food_services,gdp_government_gov_enterprises,gdp_state_local,gdp_trade,gdp_transportation_utlities,gdp_manufacturing_information,gdp_goods_producing_industries,party_governer,party_prop_representative,party_prop_senator,population)
+
+
+
+exp(predict(fit4, newdata = test))
+abs(test$total_amnt_assist - exp(predict(fit4, newdata = test)))
+train$total_amnt_assist
+
+pred <- predict(fit4, newdata = test)
+
+sqrt(sum((exp(pred) - test$total_amnt_assist)^2)/50)
+
+
+# fill in zero values with last years values
+fit_test <- lm(total_amnt_assist ~ state + WDPRB + state*WDPRB, data = train)
+
+test_sub <- test %>% dplyr::select(total_amnt_assist, state, WDPRB)
+
+predict(fit_test, test_sub)
+
+# fill in zero values with last years values
+fit_test <- lm(log(total_amnt_assist) ~ state + WDPRB + state*WDPRB, data = train)
+
+test_sub <- test %>% dplyr::select(total_amnt_assist, state, WDPRB)
+
+sqrt(sum((predict(fit_test, test_sub) - log(test$total_amnt_assist))^2)/50)
+```
+
+# Selecting Variables Related to Energty, Bio Consumption, Etc.
+
+```{r}
+fit_test <- lm(log(total_amnt_assist) ~ state + WDPRB  + WDTCB + WSTCB + WWPRB
+ + WYTCB + population, data = train)
+
+summary(fit_test)
+plot(fit_test)
+
+test_sub <- test %>% dplyr::select(total_amnt_assist, state, WDPRB, WDTCB, WSTCB, WWPRB, WYTCB, population)
+
+sqrt(sum((exp(predict(fit_test, test_sub)) - test$total_amnt_assist)^2)/50)
+```
+
+
+```{r}
+fit_all <- lm(total_amnt_assist ~ .-state, data = train)
+summary(fit_all)
+
+```
+
+```{r}
+step(fit_all)
+```
+
+```{r}
+fit_reduced <- lm(formula = log(total_amnt_assist) ~ total_num_investments + BDFDB + 
+    BDPRP + BFFDB + CLPRK + CLPRP + COPRK + EMFDB + NCPRB + NGMPB + 
+    NGMPK + NGMPP + PAPRB + REPRB + TEPRB + WDPRB + WSTCB + WWPRB + 
+    employment_total + employment_farm + employment_utilities + 
+    employment_wholesale_trade + employment_retail_trade + employment_real_estate_rental_leasing + 
+    employment_professional_scientific_technical + employment_management_companies + 
+    employment_administrative_support_waste_remediation + employment_educational + 
+    employment_arts_entertainment_recreation + employment_other_services + 
+    employment_state + gdp_all_industry_total + gdp_mining + 
+    gdp_utlilities + gdp_manufacturing + gdp_durable_goods_manufacturing + 
+    gdp_wood_product_manufacturing + gdp_nonmetallic_mineral_product_manufacturing + 
+    gdp_primary_metal_manufacturing + gdp_fabricated_metal_product_manufacturing + 
+    gdp_machinery_manufacturing + gdp_computer_electronic_manufacturing + 
+    gdp_electrical_equipment_appliance_manufacturing + gdp_vehicles_trailers_parts_manufacturing + 
+    gdp_other_transportation_equipment_manufacturing + gdp_furniture_manufacturing + 
+    gdp_miscellaneous_manufacturing + gdp_nondurable_goods_manufacturing + 
+    gdp_food_beverage_tabacco_manufacturing + gdp_textile + gdp_apparel_manufacturing + 
+    gdp_paper_manufacturing + gdp_printing + gdp_petroleum_coal_manufacturing + 
+    gdp_chemical_manufacturing + gdp_plastics_rubber_manufacturing + 
+    gdp_wholesale_trade + gdp_retail_trade + gdp_transportation_warehousing + 
+    gdp_ground_passenger_transportation + gdp_other_transportation + 
+    gdp_warehousing + gdp_publishing_industries + gdp_motion_pictures + 
+    gdp_broadcasting + gdp_data_processing_hosting + gdp_finance_insurance + 
+    gdp_monetary_authorities + gdp_securities_contracts + gdp_insurance_carriers + 
+    gdp_funds_trusts + gdp_real_estate_rental_leasing + gdp_real_estate + 
+    gdp_rental_leasing + gdp_legal + gdp_computer_systems_design + 
+    gdp_misc_professional_scientific + gdp_management_companies_enterprises + 
+    gdp_administrative_support_waste + gdp_administrative_support + 
+    gdp_waste_remediation + gdp_educational_health_social + gdp_educational + 
+    gdp_ambulatory_health + gdp_hospitals + gdp_nursing + gdp_social_assistance + 
+    gdp_performing_arts_spectator_sports_museums + gdp_amusement_gambling + 
+    gdp_accommodation_food + gdp_other_services + gdp_government_gov_enterprises + 
+    gdp_military + gdp_state_local + gdp_trade + gdp_transportation_utlities + 
+    gdp_manufacturing_information + gdp_goods_producing_industries + 
+    party_governer, data = train)
+```
+
+```{r}
+plot(fit_reduced)
+```
+
+```{r}
+step(fit_reduced)
+```
+
+```{r}
+fit_reduced2 <- lm(formula = log(total_amnt_assist) ~ total_num_investments + 
+    BDFDB + BFFDB + CLPRK + CLPRP + COPRK + EMFDB + NGMPB + NGMPK + 
+    NGMPP + REPRB + WDPRB + WSTCB + WWPRB + employment_total + 
+    employment_farm + employment_wholesale_trade + employment_professional_scientific_technical + 
+    employment_management_companies + employment_educational + 
+    employment_state + gdp_all_industry_total + gdp_mining + 
+    gdp_manufacturing + gdp_durable_goods_manufacturing + gdp_wood_product_manufacturing + 
+    gdp_nonmetallic_mineral_product_manufacturing + gdp_primary_metal_manufacturing + 
+    gdp_fabricated_metal_product_manufacturing + gdp_machinery_manufacturing + 
+    gdp_computer_electronic_manufacturing + gdp_electrical_equipment_appliance_manufacturing + 
+    gdp_vehicles_trailers_parts_manufacturing + gdp_other_transportation_equipment_manufacturing + 
+    gdp_furniture_manufacturing + gdp_miscellaneous_manufacturing + 
+    gdp_food_beverage_tabacco_manufacturing + gdp_textile + gdp_apparel_manufacturing + 
+    gdp_paper_manufacturing + gdp_printing + gdp_petroleum_coal_manufacturing + 
+    gdp_chemical_manufacturing + gdp_plastics_rubber_manufacturing + 
+    gdp_wholesale_trade + gdp_retail_trade + gdp_warehousing + 
+    gdp_publishing_industries + gdp_motion_pictures + gdp_broadcasting + 
+    gdp_data_processing_hosting + gdp_finance_insurance + gdp_monetary_authorities + 
+    gdp_securities_contracts + gdp_insurance_carriers + gdp_funds_trusts + 
+    gdp_real_estate + gdp_rental_leasing + gdp_legal + gdp_computer_systems_design + 
+    gdp_misc_professional_scientific + gdp_management_companies_enterprises + 
+    gdp_administrative_support_waste + gdp_administrative_support + 
+    gdp_educational_health_social + gdp_educational + gdp_ambulatory_health + 
+    gdp_hospitals + gdp_nursing + gdp_social_assistance + gdp_performing_arts_spectator_sports_museums + 
+    gdp_amusement_gambling + gdp_accommodation_food + gdp_other_services + 
+    gdp_government_gov_enterprises + gdp_military + gdp_state_local + 
+    gdp_transportation_utlities + gdp_goods_producing_industries + 
+    party_governer, data = train)
+```
+
+```{r}
+summary(fit_reduced2)
+```
+
+```{r}
+plot(fit_reduced2)
+```
+
+```{r}
+test <- read_csv("/Users/joshuaingram/Main/Projects/RiceHackathon2023/Chevron/CLEAN_test.csv")
+test$state <- as.factor(test$state)
+test_reduced <- test %>% dplyr::select(total_amnt_assist, state + total_num_investments , 
+    BDFDB , BFFDB , CLPRK , CLPRP , COPRK , EMFDB , NGMPB , NGMPK , 
+    NGMPP , REPRB , WDPRB , WSTCB , WWPRB , employment_total , 
+    employment_farm , employment_wholesale_trade , employment_professional_scientific_technical , 
+    employment_management_companies , employment_educational , 
+    employment_state , gdp_all_industry_total , gdp_mining , 
+    gdp_manufacturing , gdp_durable_goods_manufacturing , gdp_wood_product_manufacturing , 
+    gdp_nonmetallic_mineral_product_manufacturing , gdp_primary_metal_manufacturing , 
+    gdp_fabricated_metal_product_manufacturing , gdp_machinery_manufacturing , 
+    gdp_computer_electronic_manufacturing , gdp_electrical_equipment_appliance_manufacturing , 
+    gdp_vehicles_trailers_parts_manufacturing , gdp_other_transportation_equipment_manufacturing , 
+    gdp_furniture_manufacturing , gdp_miscellaneous_manufacturing , 
+    gdp_food_beverage_tabacco_manufacturing , gdp_textile , gdp_apparel_manufacturing , 
+    gdp_paper_manufacturing , gdp_printing , gdp_petroleum_coal_manufacturing , 
+    gdp_chemical_manufacturing , gdp_plastics_rubber_manufacturing , 
+    gdp_wholesale_trade , gdp_retail_trade , gdp_warehousing , 
+    gdp_publishing_industries , gdp_motion_pictures , gdp_broadcasting , 
+    gdp_data_processing_hosting , gdp_finance_insurance , gdp_monetary_authorities , 
+    gdp_securities_contracts , gdp_insurance_carriers , gdp_funds_trusts , 
+    gdp_real_estate , gdp_rental_leasing , gdp_legal , gdp_computer_systems_design , 
+    gdp_misc_professional_scientific , gdp_management_companies_enterprises , 
+    gdp_administrative_support_waste , gdp_administrative_support , 
+    gdp_educational_health_social , gdp_educational , gdp_ambulatory_health , 
+    gdp_hospitals , gdp_nursing , gdp_social_assistance , gdp_performing_arts_spectator_sports_museums , 
+    gdp_amusement_gambling , gdp_accommodation_food , gdp_other_services , 
+    gdp_government_gov_enterprises , gdp_military , gdp_state_local , 
+    gdp_transportation_utlities , gdp_goods_producing_industries , 
+    party_governer)
+
+# replace 0 values with last years values
+
+
+sqrt(sum((exp(predict(fit_reduced2, test_reduced)) - test_reduced$total_amnt_assist)^2)/50)
+```
+

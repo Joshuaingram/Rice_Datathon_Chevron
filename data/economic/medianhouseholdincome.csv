@@ -1,0 +1,623 @@
+"State","Year","MedHouseholdIncome"
+"Alabama",2021,53913
+"Alaska",2021,77845
+"Arizona",2021,69056
+"Arkansas",2021,52528
+"California",2021,84907
+"Colorado",2021,82254
+"Connecticut",2021,83771
+"Delaware",2021,71091
+"District of Columbia",2021,90088
+"Florida",2021,63062
+"Georgia",2021,66559
+"Hawaii",2021,84857
+"Idaho",2021,66474
+"Illinois",2021,72205
+"Indiana",2021,62743
+"Iowa",2021,65600
+"Kansas",2021,64124
+"Kentucky",2021,55573
+"Louisiana",2021,52087
+"Maine",2021,64767
+"Maryland",2021,90203
+"Massachusetts",2021,89645
+"Michigan",2021,63498
+"Minnesota",2021,77720
+"Mississippi",2021,48716
+"Missouri",2021,61847
+"Montana",2021,63249
+"Nebraska",2021,66817
+"Nevada",2021,66274
+"New Hampshire",2021,88465
+"New Jersey",2021,89296
+"New Mexico",2021,53992
+"New York",2021,74314
+"North Carolina",2021,61972
+"North Dakota",2021,66519
+"Ohio",2021,62262
+"Oklahoma",2021,55826
+"Oregon",2021,71562
+"Pennsylvania",2021,68957
+"Rhode Island",2021,74008
+"South Carolina",2021,59318
+"South Dakota",2021,66143
+"Tennessee",2021,59695
+"Texas",2021,66963
+"Utah",2021,79449
+"Vermont",2021,72431
+"Virginia",2021,80963
+"Washington",2021,84247
+"West Virginia",2021,51248
+"Wisconsin",2021,67125
+"Wyoming",2021,65204
+"Alabama",2020,57243
+"Alaska",2020,78236
+"Arizona",2020,70220
+"Arkansas",2020,53148
+"California",2020,81278
+"Colorado",2020,87689
+"Connecticut",2020,83141
+"Delaware",2020,73292
+"District of Columbia",2020,92337
+"Florida",2020,60460
+"Georgia",2020,62033
+"Hawaii",2020,84600
+"Idaho",2020,69841
+"Illinois",2020,77805
+"Indiana",2020,69925
+"Iowa",2020,72030
+"Kansas",2020,76495
+"Kentucky",2020,59405
+"Louisiana",2020,53576
+"Maine",2020,66667
+"Maryland",2020,99215
+"Massachusetts",2020,91912
+"Michigan",2020,67399
+"Minnesota",2020,82431
+"Mississippi",2020,47242
+"Missouri",2020,65081
+"Montana",2020,59390
+"Nebraska",2020,75622
+"Nevada",2020,64020
+"New Hampshire",2020,93045
+"New Jersey",2020,89543
+"New Mexico",2020,53283
+"New York",2020,71865
+"North Carolina",2020,63252
+"North Dakota",2020,67109
+"Ohio",2020,63198
+"Oklahoma",2020,54921
+"Oregon",2020,80443
+"Pennsylvania",2020,74094
+"Rhode Island",2020,83918
+"South Carolina",2020,63159
+"South Dakota",2020,73467
+"Tennessee",2020,57542
+"Texas",2020,71599
+"Utah",2020,87915
+"Vermont",2020,70398
+"Virginia",2020,86053
+"Washington",2020,85157
+"West Virginia",2020,54396
+"Wisconsin",2020,70553
+"Wyoming",2020,68506
+"Distric of Columbia",2019,92266
+"Maryland",2019,86738
+"Massachusetts",2019,85843
+"New Jersey",2019,85751
+"Hawaii",2019,83102
+"California",2019,80440
+"Connecticut",2019,78833
+"Washington",2019,78687
+"New Hampshire",2019,77933
+"Colorado",2019,77127
+"Virginia",2019,76456
+"Utah",2019,75780
+"Alaska",2019,75463
+"Minnesota",2019,74593
+"New York",2019,72108
+"Rhode Island",2019,71169
+"Delaware",2019,70176
+"Illinois",2019,69187
+"Oregon",2019,67058
+"United States",2019,65712
+"Wyoming",2019,65003
+"North Dakota",2019,64577
+"Wisconsin",2019,64168
+"Texas",2019,64034
+"Pennsylvania",2019,63463
+"Nevada",2019,63276
+"Nebraska",2019,63229
+"Vermont",2019,63001
+"Kansas",2019,62087
+"Arizona",2019,62055
+"Georgia",2019,61980
+"Iowa",2019,61691
+"Idaho",2019,60999
+"Michigan",2019,59584
+"South Dakota",2019,59533
+"Florida",2019,59227
+"Maine",2019,58924
+"Ohio",2019,58642
+"Indiana",2019,57603
+"Missouri",2019,57409
+"North Carolina",2019,57341
+"Montana",2019,57153
+"South Carolina",2019,56227
+"Tennessee",2019,56071
+"Oklahoma",2019,54449
+"Kentucky",2019,52295
+"New Mexico",2019,51945
+"Alabama",2019,51734
+"Louisiana",2019,51073
+"Arkansas",2019,48952
+"West Virginia",2019,48850
+"Mississippi",2019,45792
+"Distric of Columbia",2018,85203
+"Maryland",2018,83242
+"Massachusetts",2018,79835
+"New Jersey",2018,81740
+"Hawaii",2018,80212
+"California",2018,75277
+"Connecticut",2018,76348
+"Washington",2018,74073
+"New Hampshire",2018,74991
+"Colorado",2018,71953
+"Virginia",2018,72577
+"Utah",2018,71414
+"Alaska",2018,74346
+"Minnesota",2018,70315
+"New York",2018,67844
+"Rhode Island",2018,64340
+"Delaware",2018,64805
+"Illinois",2018,65030
+"Oregon",2018,63426
+"United States",2018,63179
+"Wyoming",2018,61584
+"North Dakota",2018,63837
+"Wisconsin",2018,60773
+"Texas",2018,60629
+"Pennsylvania",2018,60905
+"Nevada",2018,58646
+"Nebraska",2018,59566
+"Vermont",2018,60782
+"Kansas",2018,58218
+"Arizona",2018,59246
+"Georgia",2018,58756
+"Iowa",2018,59955
+"Idaho",2018,55583
+"Michigan",2018,56697
+"South Dakota",2018,56274
+"Florida",2018,55462
+"Maine",2018,55602
+"Ohio",2018,56111
+"Indiana",2018,55746
+"Missouri",2018,54478
+"North Carolina",2018,53855
+"Montana",2018,55328
+"South Carolina",2018,52306
+"Tennessee",2018,52375
+"Oklahoma",2018,51924
+"Kentucky",2018,50247
+"New Mexico",2018,47169
+"Alabama",2018,49861
+"Louisiana",2018,47905
+"Arkansas",2018,47062
+"West Virginia",2018,44097
+"Mississippi",2018,44717
+"Distric of Columbia",2017,82372
+"Maryland",2017,80776
+"Massachusetts",2017,77385
+"New Jersey",2017,80088
+"Hawaii",2017,77765
+"California",2017,71805
+"Connecticut",2017,74168
+"Washington",2017,70979
+"New Hampshire",2017,73381
+"Colorado",2017,69117
+"Virginia",2017,71535
+"Utah",2017,65358
+"Alaska",2017,73181
+"Minnesota",2017,68388
+"New York",2017,64894
+"Rhode Island",2017,63870
+"Delaware",2017,62852
+"Illinois",2017,62992
+"Oregon",2017,60212
+"United States",2017,60336
+"Wyoming",2017,60434
+"North Dakota",2017,61843
+"Wisconsin",2017,59305
+"Texas",2017,59206
+"Pennsylvania",2017,59105
+"Nevada",2017,58003
+"Nebraska",2017,59970
+"Vermont",2017,57513
+"Kansas",2017,56422
+"Arizona",2017,56581
+"Georgia",2017,56183
+"Iowa",2017,58570
+"Idaho",2017,52225
+"Michigan",2017,54909
+"South Dakota",2017,56521
+"Florida",2017,52594
+"Maine",2017,55277
+"Ohio",2017,54021
+"Indiana",2017,54181
+"Missouri",2017,53578
+"North Carolina",2017,52752
+"Montana",2017,53386
+"South Carolina",2017,50570
+"Tennessee",2017,51340
+"Oklahoma",2017,50051
+"Kentucky",2017,48375
+"New Mexico",2017,46744
+"Alabama",2017,48123
+"Louisiana",2017,46145
+"Arkansas",2017,45869
+"West Virginia",2017,43469
+"Mississippi",2017,43529
+"Distric of Columbia",2016,75506
+"Maryland",2016,78945
+"Massachusetts",2016,75297
+"New Jersey",2016,76126
+"Hawaii",2016,74511
+"California",2016,67739
+"Connecticut",2016,73433
+"Washington",2016,67106
+"New Hampshire",2016,70936
+"Colorado",2016,65685
+"Virginia",2016,68114
+"Utah",2016,65977
+"Alaska",2016,76440
+"Minnesota",2016,65599
+"New York",2016,62909
+"Rhode Island",2016,60596
+"Delaware",2016,61757
+"Illinois",2016,60960
+"Oregon",2016,57532
+"United States",2016,57617
+"Wyoming",2016,59882
+"North Dakota",2016,60656
+"Wisconsin",2016,56811
+"Texas",2016,56565
+"Pennsylvania",2016,56907
+"Nevada",2016,55180
+"Nebraska",2016,56927
+"Vermont",2016,57677
+"Kansas",2016,54935
+"Arizona",2016,53558
+"Georgia",2016,53559
+"Iowa",2016,56247
+"Idaho",2016,51807
+"Michigan",2016,52491
+"South Dakota",2016,54467
+"Florida",2016,50860
+"Maine",2016,53079
+"Ohio",2016,52344
+"Indiana",2016,52314
+"Missouri",2016,51746
+"North Carolina",2016,50584
+"Montana",2016,50027
+"South Carolina",2016,49501
+"Tennessee",2016,48547
+"Oklahoma",2016,49176
+"Kentucky",2016,46659
+"New Mexico",2016,46748
+"Alabama",2016,46257
+"Louisiana",2016,45146
+"Arkansas",2016,44334
+"West Virginia",2016,43385
+"Mississippi",2016,41754
+"Distric of Columbia",2015,75628
+"Maryland",2015,75847
+"Massachusetts",2015,70628
+"New Jersey",2015,72222
+"Hawaii",2015,73486
+"California",2015,64500
+"Connecticut",2015,71346
+"Washington",2015,64129
+"New Hampshire",2015,70303
+"Colorado",2015,63909
+"Virginia",2015,66262
+"Utah",2015,62912
+"Alaska",2015,73355
+"Minnesota",2015,63488
+"New York",2015,60850
+"Rhode Island",2015,58073
+"Delaware",2015,61255
+"Illinois",2015,59588
+"Oregon",2015,54148
+"United States",2015,55775
+"Wyoming",2015,60214
+"North Dakota",2015,60557
+"Wisconsin",2015,55638
+"Texas",2015,55653
+"Pennsylvania",2015,55702
+"Nevada",2015,52431
+"Nebraska",2015,54996
+"Vermont",2015,56990
+"Kansas",2015,53906
+"Arizona",2015,51492
+"Georgia",2015,51244
+"Iowa",2015,54736
+"Idaho",2015,48275
+"Michigan",2015,51084
+"South Dakota",2015,53017
+"Florida",2015,49426
+"Maine",2015,51494
+"Ohio",2015,51075
+"Indiana",2015,50532
+"Missouri",2015,50238
+"North Carolina",2015,47830
+"Montana",2015,49509
+"South Carolina",2015,47238
+"Tennessee",2015,47275
+"Oklahoma",2015,48568
+"Kentucky",2015,45215
+"New Mexico",2015,45382
+"Alabama",2015,44765
+"Louisiana",2015,45727
+"Arkansas",2015,41995
+"West Virginia",2015,42019
+"Mississippi",2015,40593
+"Distric of Columbia",2014,71648
+"Maryland",2014,73971
+"Massachusetts",2014,69160
+"New Jersey",2014,71919
+"Hawaii",2014,69592
+"California",2014,61933
+"Connecticut",2014,70048
+"Washington",2014,61366
+"New Hampshire",2014,66532
+"Colorado",2014,61303
+"Virginia",2014,64902
+"Utah",2014,60922
+"Alaska",2014,71583
+"Minnesota",2014,61481
+"New York",2014,58878
+"Rhode Island",2014,54891
+"Delaware",2014,59716
+"Illinois",2014,57444
+"Oregon",2014,51075
+"United States",2014,53657
+"Wyoming",2014,57055
+"North Dakota",2014,59029
+"Wisconsin",2014,52622
+"Texas",2014,53035
+"Pennsylvania",2014,53234
+"Nevada",2014,51450
+"Nebraska",2014,52686
+"Vermont",2014,54166
+"Kansas",2014,52504
+"Arizona",2014,50068
+"Georgia",2014,49321
+"Iowa",2014,53712
+"Idaho",2014,47861
+"Michigan",2014,49847
+"South Dakota",2014,50979
+"Florida",2014,47463
+"Maine",2014,49462
+"Ohio",2014,49308
+"Indiana",2014,49446
+"Missouri",2014,48363
+"North Carolina",2014,46556
+"Montana",2014,46328
+"South Carolina",2014,45238
+"Tennessee",2014,44361
+"Oklahoma",2014,47529
+"Kentucky",2014,42958
+"New Mexico",2014,44803
+"Alabama",2014,42830
+"Louisiana",2014,44555
+"Arkansas",2014,41262
+"West Virginia",2014,41059
+"Mississippi",2014,39680
+"Distric of Columbia",2013,67572
+"Maryland",2013,72483
+"Massachusetts",2013,66768
+"New Jersey",2013,70165
+"Hawaii",2013,68020
+"California",2013,60190
+"Connecticut",2013,67098
+"Washington",2013,58405
+"New Hampshire",2013,64230
+"Colorado",2013,58823
+"Virginia",2013,62666
+"Utah",2013,59770
+"Alaska",2013,72237
+"Minnesota",2013,60702
+"New York",2013,57369
+"Rhode Island",2013,55902
+"Delaware",2013,57846
+"Illinois",2013,56210
+"Oregon",2013,50251
+"United States",2013,52250
+"Wyoming",2013,58752
+"North Dakota",2013,55759
+"Wisconsin",2013,51467
+"Texas",2013,51704
+"Pennsylvania",2013,52007
+"Nevada",2013,51230
+"Nebraska",2013,51440
+"Vermont",2013,52578
+"Kansas",2013,50972
+"Arizona",2013,48510
+"Georgia",2013,47829
+"Iowa",2013,52229
+"Idaho",2013,46783
+"Michigan",2013,48273
+"South Dakota",2013,48947
+"Florida",2013,46036
+"Maine",2013,46974
+"Ohio",2013,48081
+"Indiana",2013,47529
+"Missouri",2013,46931
+"North Carolina",2013,45906
+"Montana",2013,46972
+"South Carolina",2013,44163
+"Tennessee",2013,44297
+"Oklahoma",2013,45690
+"Kentucky",2013,43399
+"New Mexico",2013,43872
+"Alabama",2013,42849
+"Louisiana",2013,44164
+"Arkansas",2013,40511
+"West Virginia",2013,41253
+"Mississippi",2013,37963
+"Distric of Columbia",2012,66583
+"Maryland",2012,71122
+"Massachusetts",2012,65339
+"New Jersey",2012,69667
+"Hawaii",2012,66259
+"California",2012,58328
+"Connecticut",2012,67276
+"Washington",2012,57573
+"New Hampshire",2012,63280
+"Colorado",2012,56765
+"Virginia",2012,61741
+"Utah",2012,57049
+"Alaska",2012,67712
+"Minnesota",2012,58906
+"New York",2012,56448
+"Rhode Island",2012,54554
+"Delaware",2012,58415
+"Illinois",2012,55137
+"Oregon",2012,49161
+"United States",2012,51371
+"Wyoming",2012,54901
+"North Dakota",2012,53585
+"Wisconsin",2012,51059
+"Texas",2012,50740
+"Pennsylvania",2012,51230
+"Nevada",2012,49760
+"Nebraska",2012,50723
+"Vermont",2012,52977
+"Kansas",2012,50241
+"Arizona",2012,47826
+"Georgia",2012,47209
+"Iowa",2012,50957
+"Idaho",2012,45489
+"Michigan",2012,46859
+"South Dakota",2012,48362
+"Florida",2012,45040
+"Maine",2012,46709
+"Ohio",2012,46829
+"Indiana",2012,46974
+"Missouri",2012,45321
+"North Carolina",2012,45150
+"Montana",2012,45076
+"South Carolina",2012,43107
+"Tennessee",2012,42764
+"Oklahoma",2012,44312
+"Kentucky",2012,41724
+"New Mexico",2012,42558
+"Alabama",2012,41574
+"Louisiana",2012,42944
+"Arkansas",2012,40112
+"West Virginia",2012,40196
+"Mississippi",2012,37095
+"Distric of Columbia",2011,63124
+"Maryland",2011,70004
+"Massachusetts",2011,62859
+"New Jersey",2011,67458
+"Hawaii",2011,61821
+"California",2011,57287
+"Connecticut",2011,65753
+"Washington",2011,56835
+"New Hampshire",2011,62647
+"Colorado",2011,55387
+"Virginia",2011,61882
+"Utah",2011,55869
+"Alaska",2011,67825
+"Minnesota",2011,56954
+"New York",2011,55246
+"Rhode Island",2011,53636
+"Delaware",2011,58814
+"Illinois",2011,53234
+"Oregon",2011,46816
+"United States",2011,50502
+"Wyoming",2011,56322
+"North Dakota",2011,51704
+"Wisconsin",2011,50395
+"Texas",2011,49392
+"Pennsylvania",2011,50228
+"Nevada",2011,48927
+"Nebraska",2011,50296
+"Vermont",2011,52776
+"Kansas",2011,48964
+"Arizona",2011,46709
+"Georgia",2011,46007
+"Iowa",2011,49427
+"Idaho",2011,43341
+"Michigan",2011,45981
+"South Dakota",2011,48321
+"Florida",2011,44299
+"Maine",2011,46033
+"Ohio",2011,45749
+"Indiana",2011,46438
+"Missouri",2011,45247
+"North Carolina",2011,43916
+"Montana",2011,44222
+"South Carolina",2011,42367
+"Tennessee",2011,41693
+"Oklahoma",2011,43225
+"Kentucky",2011,41141
+"New Mexico",2011,41963
+"Alabama",2011,41415
+"Louisiana",2011,41734
+"Arkansas",2011,38758
+"West Virginia",2011,38482
+"Mississippi",2011,36919
+"Distric of Columbia",2010,60903
+"Maryland",2010,68854
+"Massachusetts",2010,62072
+"New Jersey",2010,67681
+"Hawaii",2010,63030
+"California",2010,57708
+"Connecticut",2010,64032
+"Washington",2010,55631
+"New Hampshire",2010,61042
+"Colorado",2010,54046
+"Virginia",2010,60674
+"Utah",2010,54744
+"Alaska",2010,64576
+"Minnesota",2010,55459
+"New York",2010,54148
+"Rhode Island",2010,52254
+"Delaware",2010,55847
+"Illinois",2010,52972
+"Oregon",2010,46560
+"United States",2010,50046
+"Wyoming",2010,53512
+"North Dakota",2010,48670
+"Wisconsin",2010,49001
+"Texas",2010,48615
+"Pennsylvania",2010,49288
+"Nevada",2010,51001
+"Nebraska",2010,48408
+"Vermont",2010,49406
+"Kansas",2010,48257
+"Arizona",2010,46789
+"Georgia",2010,46430
+"Iowa",2010,47961
+"Idaho",2010,43490
+"Michigan",2010,45413
+"South Dakota",2010,45904
+"Florida",2010,44409
+"Maine",2010,45815
+"Ohio",2010,45090
+"Indiana",2010,44613
+"Missouri",2010,44301
+"North Carolina",2010,43326
+"Montana",2010,42666
+"South Carolina",2010,42018
+"Tennessee",2010,41461
+"Oklahoma",2010,42072
+"Kentucky",2010,40062
+"New Mexico",2010,42090
+"Alabama",2010,40474
+"Louisiana",2010,42505
+"Arkansas",2010,38307
+"West Virginia",2010,38218
+"Mississippi",2010,36851

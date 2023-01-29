@@ -1,0 +1,2164 @@
+SAEMP25N Total full-time and part-time employment by NAICS industry 1/,,,,
+SAEMP25N Total full-time and part-time employment by NAICS industry 1/,,,,
+State or DC,,,,
+GeoFips,GeoName,LineCode,Description,2020
+0,United States,,Employment by place of work,
+0,United States,10,Total employment (number of jobs),195301600
+0,United States,,By type,
+0,United States,20,  Wage and salary employment,147228000
+0,United States,40,  Proprietors employment,48073600
+0,United States,50,    Farm proprietors employment,1782000
+0,United States,60,Nonfarm proprietors employment 2/,46291600
+0,United States,,By industry,
+0,United States,70,  Farm employment,2591000
+0,United States,80,  Nonfarm employment,192710600
+0,United States,90,    Private nonfarm employment,168578600
+0,United States,100,"      Forestry, fishing, and related activities",937100
+0,United States,200,"      Mining, quarrying, and oil and gas extraction",979200
+0,United States,300,      Utilities,591400
+0,United States,400,      Construction,11278000
+0,United States,500,      Manufacturing,12860000
+0,United States,600,      Wholesale trade,6234000
+0,United States,700,      Retail trade,18407700
+0,United States,800,      Transportation and warehousing,9711600
+0,United States,900,      Information,3292800
+0,United States,1000,      Finance and insurance,11347000
+0,United States,1100,      Real estate and rental and leasing,9827300
+0,United States,1200,"      Professional, scientific, and technical services",14389100
+0,United States,1300,      Management of companies and enterprises,2717600
+0,United States,1400,      Administrative and support and waste management and remediation services,11863500
+0,United States,1500,      Educational services,4531500
+0,United States,1600,      Health care and social assistance,22524100
+0,United States,1700,"      Arts, entertainment, and recreation",3853000
+0,United States,1800,      Accommodation and food services,12382900
+0,United States,1900,      Other services (except government and government enterprises),10850800
+0,United States,2000,    Government and government enterprises,24132000
+0,United States,2001,      Federal civilian,2982000
+0,United States,2002,      Military,1913000
+0,United States,2010,      State and local,19237000
+0,United States,2011,        State government,5370000
+0,United States,2012,        Local government,13867000
+1000,Alabama,,Employment by place of work,
+1000,Alabama,10,Total employment (number of jobs),2671253
+1000,Alabama,,By type,
+1000,Alabama,20,  Wage and salary employment,2044151
+1000,Alabama,40,  Proprietors employment,627102
+1000,Alabama,50,    Farm proprietors employment,34755
+1000,Alabama,60,Nonfarm proprietors employment 2/,592347
+1000,Alabama,,By industry,
+1000,Alabama,70,  Farm employment,41181
+1000,Alabama,80,  Nonfarm employment,2630072
+1000,Alabama,90,    Private nonfarm employment,2223316
+1000,Alabama,100,"      Forestry, fishing, and related activities",15982
+1000,Alabama,200,"      Mining, quarrying, and oil and gas extraction",8739
+1000,Alabama,300,      Utilities,13509
+1000,Alabama,400,      Construction,157497
+1000,Alabama,500,      Manufacturing,269248
+1000,Alabama,600,      Wholesale trade,80840
+1000,Alabama,700,      Retail trade,279556
+1000,Alabama,800,      Transportation and warehousing,98407
+1000,Alabama,900,      Information,25564
+1000,Alabama,1000,      Finance and insurance,120357
+1000,Alabama,1100,      Real estate and rental and leasing,118461
+1000,Alabama,1200,"      Professional, scientific, and technical services",158952
+1000,Alabama,1300,      Management of companies and enterprises,19567
+1000,Alabama,1400,      Administrative and support and waste management and remediation services,180248
+1000,Alabama,1500,      Educational services,37462
+1000,Alabama,1600,      Health care and social assistance,251816
+1000,Alabama,1700,"      Arts, entertainment, and recreation",37611
+1000,Alabama,1800,      Accommodation and food services,179356
+1000,Alabama,1900,      Other services (except government and government enterprises),170144
+1000,Alabama,2000,    Government and government enterprises,406756
+1000,Alabama,2001,      Federal civilian,55961
+1000,Alabama,2002,      Military,28575
+1000,Alabama,2010,      State and local,322220
+1000,Alabama,2011,        State government,111438
+1000,Alabama,2012,        Local government,210782
+2000,Alaska,,Employment by place of work,
+2000,Alaska,10,Total employment (number of jobs),430824
+2000,Alaska,,By type,
+2000,Alaska,20,  Wage and salary employment,331865
+2000,Alaska,40,  Proprietors employment,98959
+2000,Alaska,50,    Farm proprietors employment,918
+2000,Alaska,60,Nonfarm proprietors employment 2/,98041
+2000,Alaska,,By industry,
+2000,Alaska,70,  Farm employment,1412
+2000,Alaska,80,  Nonfarm employment,429412
+2000,Alaska,90,    Private nonfarm employment,328522
+2000,Alaska,100,"      Forestry, fishing, and related activities",
+2000,Alaska,200,"      Mining, quarrying, and oil and gas extraction",13697
+2000,Alaska,300,      Utilities,2467
+2000,Alaska,400,      Construction,23285
+2000,Alaska,500,      Manufacturing,
+2000,Alaska,600,      Wholesale trade,7072
+2000,Alaska,700,      Retail trade,41886
+2000,Alaska,800,      Transportation and warehousing,24037
+2000,Alaska,900,      Information,5956
+2000,Alaska,1000,      Finance and insurance,11771
+2000,Alaska,1100,      Real estate and rental and leasing,17033
+2000,Alaska,1200,"      Professional, scientific, and technical services",22381
+2000,Alaska,1300,      Management of companies and enterprises,3435
+2000,Alaska,1400,      Administrative and support and waste management and remediation services,16105
+2000,Alaska,1500,      Educational services,4922
+2000,Alaska,1600,      Health care and social assistance,52252
+2000,Alaska,1700,"      Arts, entertainment, and recreation",8852
+2000,Alaska,1800,      Accommodation and food services,28850
+2000,Alaska,1900,      Other services (except government and government enterprises),19689
+2000,Alaska,2000,    Government and government enterprises,100890
+2000,Alaska,2001,      Federal civilian,15438
+2000,Alaska,2002,      Military,26561
+2000,Alaska,2010,      State and local,58891
+2000,Alaska,2011,        State government,22625
+2000,Alaska,2012,        Local government,36266
+4000,Arizona,,Employment by place of work,
+4000,Arizona,10,Total employment (number of jobs),3920036
+4000,Arizona,,By type,
+4000,Arizona,20,  Wage and salary employment,2967819
+4000,Arizona,40,  Proprietors employment,952217
+4000,Arizona,50,    Farm proprietors employment,17845
+4000,Arizona,60,Nonfarm proprietors employment 2/,934372
+4000,Arizona,,By industry,
+4000,Arizona,70,  Farm employment,30310
+4000,Arizona,80,  Nonfarm employment,3889726
+4000,Arizona,90,    Private nonfarm employment,3437543
+4000,Arizona,100,"      Forestry, fishing, and related activities",14624
+4000,Arizona,200,"      Mining, quarrying, and oil and gas extraction",18519
+4000,Arizona,300,      Utilities,12743
+4000,Arizona,400,      Construction,244946
+4000,Arizona,500,      Manufacturing,191561
+4000,Arizona,600,      Wholesale trade,111657
+4000,Arizona,700,      Retail trade,392965
+4000,Arizona,800,      Transportation and warehousing,203827
+4000,Arizona,900,      Information,57227
+4000,Arizona,1000,      Finance and insurance,279780
+4000,Arizona,1100,      Real estate and rental and leasing,228281
+4000,Arizona,1200,"      Professional, scientific, and technical services",260112
+4000,Arizona,1300,      Management of companies and enterprises,42258
+4000,Arizona,1400,      Administrative and support and waste management and remediation services,308238
+4000,Arizona,1500,      Educational services,80763
+4000,Arizona,1600,      Health care and social assistance,451053
+4000,Arizona,1700,"      Arts, entertainment, and recreation",75527
+4000,Arizona,1800,      Accommodation and food services,266680
+4000,Arizona,1900,      Other services (except government and government enterprises),196782
+4000,Arizona,2000,    Government and government enterprises,452183
+4000,Arizona,2001,      Federal civilian,58974
+4000,Arizona,2002,      Military,35715
+4000,Arizona,2010,      State and local,357494
+4000,Arizona,2011,        State government,95516
+4000,Arizona,2012,        Local government,261978
+5000,Arkansas,,Employment by place of work,
+5000,Arkansas,10,Total employment (number of jobs),1640442
+5000,Arkansas,,By type,
+5000,Arkansas,20,  Wage and salary employment,1260663
+5000,Arkansas,40,  Proprietors employment,379779
+5000,Arkansas,50,    Farm proprietors employment,38163
+5000,Arkansas,60,Nonfarm proprietors employment 2/,341616
+5000,Arkansas,,By industry,
+5000,Arkansas,70,  Farm employment,55092
+5000,Arkansas,80,  Nonfarm employment,1585350
+5000,Arkansas,90,    Private nonfarm employment,1363263
+5000,Arkansas,100,"      Forestry, fishing, and related activities",14464
+5000,Arkansas,200,"      Mining, quarrying, and oil and gas extraction",9304
+5000,Arkansas,300,      Utilities,8260
+5000,Arkansas,400,      Construction,97511
+5000,Arkansas,500,      Manufacturing,160488
+5000,Arkansas,600,      Wholesale trade,50670
+5000,Arkansas,700,      Retail trade,167575
+5000,Arkansas,800,      Transportation and warehousing,76591
+5000,Arkansas,900,      Information,15116
+5000,Arkansas,1000,      Finance and insurance,67852
+5000,Arkansas,1100,      Real estate and rental and leasing,66121
+5000,Arkansas,1200,"      Professional, scientific, and technical services",68790
+5000,Arkansas,1300,      Management of companies and enterprises,35840
+5000,Arkansas,1400,      Administrative and support and waste management and remediation services,91367
+5000,Arkansas,1500,      Educational services,21805
+5000,Arkansas,1600,      Health care and social assistance,192866
+5000,Arkansas,1700,"      Arts, entertainment, and recreation",21004
+5000,Arkansas,1800,      Accommodation and food services,106983
+5000,Arkansas,1900,      Other services (except government and government enterprises),90656
+5000,Arkansas,2000,    Government and government enterprises,222087
+5000,Arkansas,2001,      Federal civilian,21272
+5000,Arkansas,2002,      Military,14965
+5000,Arkansas,2010,      State and local,185850
+5000,Arkansas,2011,        State government,78668
+5000,Arkansas,2012,        Local government,107182
+6000,California,,Employment by place of work,
+6000,California,10,Total employment (number of jobs),23155486
+6000,California,,By type,
+6000,California,20,  Wage and salary employment,17296866
+6000,California,40,  Proprietors employment,5858620
+6000,California,50,    Farm proprietors employment,57337
+6000,California,60,Nonfarm proprietors employment 2/,5801283
+6000,California,,By industry,
+6000,California,70,  Farm employment,231488
+6000,California,80,  Nonfarm employment,22923998
+6000,California,90,    Private nonfarm employment,20189055
+6000,California,100,"      Forestry, fishing, and related activities",245782
+6000,California,200,"      Mining, quarrying, and oil and gas extraction",35524
+6000,California,300,      Utilities,63653
+6000,California,400,      Construction,1210640
+6000,California,500,      Manufacturing,1361111
+6000,California,600,      Wholesale trade,728692
+6000,California,700,      Retail trade,1942803
+6000,California,800,      Transportation and warehousing,1270086
+6000,California,900,      Information,612122
+6000,California,1000,      Finance and insurance,1158026
+6000,California,1100,      Real estate and rental and leasing,1217024
+6000,California,1200,"      Professional, scientific, and technical services",2048058
+6000,California,1300,      Management of companies and enterprises,277688
+6000,California,1400,      Administrative and support and waste management and remediation services,1454546
+6000,California,1500,      Educational services,521300
+6000,California,1600,      Health care and social assistance,2752113
+6000,California,1700,"      Arts, entertainment, and recreation",528023
+6000,California,1800,      Accommodation and food services,1436377
+6000,California,1900,      Other services (except government and government enterprises),1325487
+6000,California,2000,    Government and government enterprises,2734943
+6000,California,2001,      Federal civilian,260501
+6000,California,2002,      Military,197728
+6000,California,2010,      State and local,2276714
+6000,California,2011,        State government,558330
+6000,California,2012,        Local government,1718384
+8000,Colorado,,Employment by place of work,
+8000,Colorado,10,Total employment (number of jobs),3821923
+8000,Colorado,,By type,
+8000,Colorado,20,  Wage and salary employment,2787065
+8000,Colorado,40,  Proprietors employment,1034858
+8000,Colorado,50,    Farm proprietors employment,35311
+8000,Colorado,60,Nonfarm proprietors employment 2/,999547
+8000,Colorado,,By industry,
+8000,Colorado,70,  Farm employment,49011
+8000,Colorado,80,  Nonfarm employment,3772912
+8000,Colorado,90,    Private nonfarm employment,3265213
+8000,Colorado,100,"      Forestry, fishing, and related activities",13962
+8000,Colorado,200,"      Mining, quarrying, and oil and gas extraction",41199
+8000,Colorado,300,      Utilities,9126
+8000,Colorado,400,      Construction,269501
+8000,Colorado,500,      Manufacturing,163308
+8000,Colorado,600,      Wholesale trade,118125
+8000,Colorado,700,      Retail trade,329205
+8000,Colorado,800,      Transportation and warehousing,169534
+8000,Colorado,900,      Information,88613
+8000,Colorado,1000,      Finance and insurance,240832
+8000,Colorado,1100,      Real estate and rental and leasing,231196
+8000,Colorado,1200,"      Professional, scientific, and technical services",365968
+8000,Colorado,1300,      Management of companies and enterprises,50509
+8000,Colorado,1400,      Administrative and support and waste management and remediation services,204979
+8000,Colorado,1500,      Educational services,74910
+8000,Colorado,1600,      Health care and social assistance,352162
+8000,Colorado,1700,"      Arts, entertainment, and recreation",92945
+8000,Colorado,1800,      Accommodation and food services,251941
+8000,Colorado,1900,      Other services (except government and government enterprises),197198
+8000,Colorado,2000,    Government and government enterprises,507699
+8000,Colorado,2001,      Federal civilian,54740
+8000,Colorado,2002,      Military,56277
+8000,Colorado,2010,      State and local,396682
+8000,Colorado,2011,        State government,130454
+8000,Colorado,2012,        Local government,266228
+9000,Connecticut,,Employment by place of work,
+9000,Connecticut,10,Total employment (number of jobs),2217497
+9000,Connecticut,,By type,
+9000,Connecticut,20,  Wage and salary employment,1628363
+9000,Connecticut,40,  Proprietors employment,589134
+9000,Connecticut,50,    Farm proprietors employment,5018
+9000,Connecticut,60,Nonfarm proprietors employment 2/,584116
+9000,Connecticut,,By industry,
+9000,Connecticut,70,  Farm employment,9400
+9000,Connecticut,80,  Nonfarm employment,2208097
+9000,Connecticut,90,    Private nonfarm employment,1970346
+9000,Connecticut,100,"      Forestry, fishing, and related activities",
+9000,Connecticut,200,"      Mining, quarrying, and oil and gas extraction",
+9000,Connecticut,300,      Utilities,5753
+9000,Connecticut,400,      Construction,113838
+9000,Connecticut,500,      Manufacturing,162612
+9000,Connecticut,600,      Wholesale trade,63118
+9000,Connecticut,700,      Retail trade,198700
+9000,Connecticut,800,      Transportation and warehousing,90303
+9000,Connecticut,900,      Information,36485
+9000,Connecticut,1000,      Finance and insurance,200369
+9000,Connecticut,1100,      Real estate and rental and leasing,124633
+9000,Connecticut,1200,"      Professional, scientific, and technical services",159097
+9000,Connecticut,1300,      Management of companies and enterprises,36793
+9000,Connecticut,1400,      Administrative and support and waste management and remediation services,114589
+9000,Connecticut,1500,      Educational services,87678
+9000,Connecticut,1600,      Health care and social assistance,304578
+9000,Connecticut,1700,"      Arts, entertainment, and recreation",46267
+9000,Connecticut,1800,      Accommodation and food services,112240
+9000,Connecticut,1900,      Other services (except government and government enterprises),109013
+9000,Connecticut,2000,    Government and government enterprises,237751
+9000,Connecticut,2001,      Federal civilian,19233
+9000,Connecticut,2002,      Military,11989
+9000,Connecticut,2010,      State and local,206529
+9000,Connecticut,2011,        State government,72929
+9000,Connecticut,2012,        Local government,133600
+10000,Delaware,,Employment by place of work,
+10000,Delaware,10,Total employment (number of jobs),592045
+10000,Delaware,,By type,
+10000,Delaware,20,  Wage and salary employment,451844
+10000,Delaware,40,  Proprietors employment,140201
+10000,Delaware,50,    Farm proprietors employment,1883
+10000,Delaware,60,Nonfarm proprietors employment 2/,138318
+10000,Delaware,,By industry,
+10000,Delaware,70,  Farm employment,3081
+10000,Delaware,80,  Nonfarm employment,588964
+10000,Delaware,90,    Private nonfarm employment,514502
+10000,Delaware,100,"      Forestry, fishing, and related activities",1148
+10000,Delaware,200,"      Mining, quarrying, and oil and gas extraction",278
+10000,Delaware,300,      Utilities,2171
+10000,Delaware,400,      Construction,33503
+10000,Delaware,500,      Manufacturing,27161
+10000,Delaware,600,      Wholesale trade,12510
+10000,Delaware,700,      Retail trade,58072
+10000,Delaware,800,      Transportation and warehousing,29481
+10000,Delaware,900,      Information,5464
+10000,Delaware,1000,      Finance and insurance,65926
+10000,Delaware,1100,      Real estate and rental and leasing,31392
+10000,Delaware,1200,"      Professional, scientific, and technical services",37937
+10000,Delaware,1300,      Management of companies and enterprises,11283
+10000,Delaware,1400,      Administrative and support and waste management and remediation services,35439
+10000,Delaware,1500,      Educational services,8721
+10000,Delaware,1600,      Health care and social assistance,77329
+10000,Delaware,1700,"      Arts, entertainment, and recreation",12853
+10000,Delaware,1800,      Accommodation and food services,37221
+10000,Delaware,1900,      Other services (except government and government enterprises),26613
+10000,Delaware,2000,    Government and government enterprises,74462
+10000,Delaware,2001,      Federal civilian,6046
+10000,Delaware,2002,      Military,8967
+10000,Delaware,2010,      State and local,59449
+10000,Delaware,2011,        State government,32243
+10000,Delaware,2012,        Local government,27206
+11000,District of Columbia,,Employment by place of work,
+11000,District of Columbia,10,Total employment (number of jobs),865878
+11000,District of Columbia,,By type,
+11000,District of Columbia,20,  Wage and salary employment,753744
+11000,District of Columbia,40,  Proprietors employment,112134
+11000,District of Columbia,50,    Farm proprietors employment,0
+11000,District of Columbia,60,Nonfarm proprietors employment 2/,112134
+11000,District of Columbia,,By industry,
+11000,District of Columbia,70,  Farm employment,0
+11000,District of Columbia,80,  Nonfarm employment,865878
+11000,District of Columbia,90,    Private nonfarm employment,615386
+11000,District of Columbia,100,"      Forestry, fishing, and related activities",109
+11000,District of Columbia,200,"      Mining, quarrying, and oil and gas extraction",231
+11000,District of Columbia,300,      Utilities,
+11000,District of Columbia,400,      Construction,18388
+11000,District of Columbia,500,      Manufacturing,
+11000,District of Columbia,600,      Wholesale trade,5513
+11000,District of Columbia,700,      Retail trade,24191
+11000,District of Columbia,800,      Transportation and warehousing,12814
+11000,District of Columbia,900,      Information,22143
+11000,District of Columbia,1000,      Finance and insurance,29942
+11000,District of Columbia,1100,      Real estate and rental and leasing,31664
+11000,District of Columbia,1200,"      Professional, scientific, and technical services",146416
+11000,District of Columbia,1300,      Management of companies and enterprises,3842
+11000,District of Columbia,1400,      Administrative and support and waste management and remediation services,47373
+11000,District of Columbia,1500,      Educational services,55138
+11000,District of Columbia,1600,      Health care and social assistance,73741
+11000,District of Columbia,1700,"      Arts, entertainment, and recreation",14040
+11000,District of Columbia,1800,      Accommodation and food services,44564
+11000,District of Columbia,1900,      Other services (except government and government enterprises),81212
+11000,District of Columbia,2000,    Government and government enterprises,250492
+11000,District of Columbia,2001,      Federal civilian,193588
+11000,District of Columbia,2002,      Military,14041
+11000,District of Columbia,2010,      State and local,42863
+11000,District of Columbia,2011,        State government,0
+11000,District of Columbia,2012,        Local government,42863
+12000,Florida,,Employment by place of work,
+12000,Florida,10,Total employment (number of jobs),12720098
+12000,Florida,,By type,
+12000,Florida,20,  Wage and salary employment,8902524
+12000,Florida,40,  Proprietors employment,3817574
+12000,Florida,50,    Farm proprietors employment,38760
+12000,Florida,60,Nonfarm proprietors employment 2/,3778814
+12000,Florida,,By industry,
+12000,Florida,70,  Farm employment,80821
+12000,Florida,80,  Nonfarm employment,12639277
+12000,Florida,90,    Private nonfarm employment,11438463
+12000,Florida,100,"      Forestry, fishing, and related activities",61222
+12000,Florida,200,"      Mining, quarrying, and oil and gas extraction",15923
+12000,Florida,300,      Utilities,26375
+12000,Florida,400,      Construction,839560
+12000,Florida,500,      Manufacturing,426078
+12000,Florida,600,      Wholesale trade,397959
+12000,Florida,700,      Retail trade,1290220
+12000,Florida,800,      Transportation and warehousing,669663
+12000,Florida,900,      Information,175093
+12000,Florida,1000,      Finance and insurance,860997
+12000,Florida,1100,      Real estate and rental and leasing,858957
+12000,Florida,1200,"      Professional, scientific, and technical services",959501
+12000,Florida,1300,      Management of companies and enterprises,156031
+12000,Florida,1400,      Administrative and support and waste management and remediation services,999823
+12000,Florida,1500,      Educational services,233934
+12000,Florida,1600,      Health care and social assistance,1390000
+12000,Florida,1700,"      Arts, entertainment, and recreation",322207
+12000,Florida,1800,      Accommodation and food services,916096
+12000,Florida,1900,      Other services (except government and government enterprises),838824
+12000,Florida,2000,    Government and government enterprises,1200814
+12000,Florida,2001,      Federal civilian,150008
+12000,Florida,2002,      Military,101380
+12000,Florida,2010,      State and local,949426
+12000,Florida,2011,        State government,252895
+12000,Florida,2012,        Local government,696531
+13000,Georgia,,Employment by place of work,
+13000,Georgia,10,Total employment (number of jobs),6326942
+13000,Georgia,,By type,
+13000,Georgia,20,  Wage and salary employment,4604892
+13000,Georgia,40,  Proprietors employment,1722050
+13000,Georgia,50,    Farm proprietors employment,34880
+13000,Georgia,60,Nonfarm proprietors employment 2/,1687170
+13000,Georgia,,By industry,
+13000,Georgia,70,  Farm employment,56389
+13000,Georgia,80,  Nonfarm employment,6270553
+13000,Georgia,90,    Private nonfarm employment,5492867
+13000,Georgia,100,"      Forestry, fishing, and related activities",25619
+13000,Georgia,200,"      Mining, quarrying, and oil and gas extraction",8642
+13000,Georgia,300,      Utilities,21092
+13000,Georgia,400,      Construction,370467
+13000,Georgia,500,      Manufacturing,411486
+13000,Georgia,600,      Wholesale trade,228948
+13000,Georgia,700,      Retail trade,609381
+13000,Georgia,800,      Transportation and warehousing,364251
+13000,Georgia,900,      Information,132460
+13000,Georgia,1000,      Finance and insurance,329294
+13000,Georgia,1100,      Real estate and rental and leasing,301723
+13000,Georgia,1200,"      Professional, scientific, and technical services",445912
+13000,Georgia,1300,      Management of companies and enterprises,98182
+13000,Georgia,1400,      Administrative and support and waste management and remediation services,504615
+13000,Georgia,1500,      Educational services,123382
+13000,Georgia,1600,      Health care and social assistance,584064
+13000,Georgia,1700,"      Arts, entertainment, and recreation",114154
+13000,Georgia,1800,      Accommodation and food services,424938
+13000,Georgia,1900,      Other services (except government and government enterprises),394257
+13000,Georgia,2000,    Government and government enterprises,777686
+13000,Georgia,2001,      Federal civilian,107617
+13000,Georgia,2002,      Military,96112
+13000,Georgia,2010,      State and local,573957
+13000,Georgia,2011,        State government,171456
+13000,Georgia,2012,        Local government,402501
+15000,Hawaii,,Employment by place of work,
+15000,Hawaii,10,Total employment (number of jobs),817748
+15000,Hawaii,,By type,
+15000,Hawaii,20,  Wage and salary employment,626383
+15000,Hawaii,40,  Proprietors employment,191365
+15000,Hawaii,50,    Farm proprietors employment,5936
+15000,Hawaii,60,Nonfarm proprietors employment 2/,185429
+15000,Hawaii,,By industry,
+15000,Hawaii,70,  Farm employment,10425
+15000,Hawaii,80,  Nonfarm employment,807323
+15000,Hawaii,90,    Private nonfarm employment,635745
+15000,Hawaii,100,"      Forestry, fishing, and related activities",3822
+15000,Hawaii,200,"      Mining, quarrying, and oil and gas extraction",628
+15000,Hawaii,300,      Utilities,4107
+15000,Hawaii,400,      Construction,48648
+15000,Hawaii,500,      Manufacturing,15803
+15000,Hawaii,600,      Wholesale trade,19836
+15000,Hawaii,700,      Retail trade,80652
+15000,Hawaii,800,      Transportation and warehousing,35726
+15000,Hawaii,900,      Information,8982
+15000,Hawaii,1000,      Finance and insurance,31636
+15000,Hawaii,1100,      Real estate and rental and leasing,42273
+15000,Hawaii,1200,"      Professional, scientific, and technical services",45197
+15000,Hawaii,1300,      Management of companies and enterprises,9058
+15000,Hawaii,1400,      Administrative and support and waste management and remediation services,48431
+15000,Hawaii,1500,      Educational services,18154
+15000,Hawaii,1600,      Health care and social assistance,83233
+15000,Hawaii,1700,"      Arts, entertainment, and recreation",18102
+15000,Hawaii,1800,      Accommodation and food services,75795
+15000,Hawaii,1900,      Other services (except government and government enterprises),45662
+15000,Hawaii,2000,    Government and government enterprises,171578
+15000,Hawaii,2001,      Federal civilian,35125
+15000,Hawaii,2002,      Military,50798
+15000,Hawaii,2010,      State and local,85655
+15000,Hawaii,2011,        State government,66547
+15000,Hawaii,2012,        Local government,19108
+16000,Idaho,,Employment by place of work,
+16000,Idaho,10,Total employment (number of jobs),1078122
+16000,Idaho,,By type,
+16000,Idaho,20,  Wage and salary employment,791873
+16000,Idaho,40,  Proprietors employment,286249
+16000,Idaho,50,    Farm proprietors employment,22530
+16000,Idaho,60,Nonfarm proprietors employment 2/,263719
+16000,Idaho,,By industry,
+16000,Idaho,70,  Farm employment,40813
+16000,Idaho,80,  Nonfarm employment,1037309
+16000,Idaho,90,    Private nonfarm employment,903493
+16000,Idaho,100,"      Forestry, fishing, and related activities",13291
+16000,Idaho,200,"      Mining, quarrying, and oil and gas extraction",4380
+16000,Idaho,300,      Utilities,3228
+16000,Idaho,400,      Construction,82330
+16000,Idaho,500,      Manufacturing,74577
+16000,Idaho,600,      Wholesale trade,34270
+16000,Idaho,700,      Retail trade,113136
+16000,Idaho,800,      Transportation and warehousing,39464
+16000,Idaho,900,      Information,10442
+16000,Idaho,1000,      Finance and insurance,47741
+16000,Idaho,1100,      Real estate and rental and leasing,59708
+16000,Idaho,1200,"      Professional, scientific, and technical services",68270
+16000,Idaho,1300,      Management of companies and enterprises,9546
+16000,Idaho,1400,      Administrative and support and waste management and remediation services,63198
+16000,Idaho,1500,      Educational services,22261
+16000,Idaho,1600,      Health care and social assistance,113879
+16000,Idaho,1700,"      Arts, entertainment, and recreation",22157
+16000,Idaho,1800,      Accommodation and food services,70575
+16000,Idaho,1900,      Other services (except government and government enterprises),51040
+16000,Idaho,2000,    Government and government enterprises,133816
+16000,Idaho,2001,      Federal civilian,13719
+16000,Idaho,2002,      Military,9319
+16000,Idaho,2010,      State and local,110778
+16000,Idaho,2011,        State government,30813
+16000,Idaho,2012,        Local government,79965
+17000,Illinois,,Employment by place of work,
+17000,Illinois,10,Total employment (number of jobs),7519502
+17000,Illinois,,By type,
+17000,Illinois,20,  Wage and salary employment,5849130
+17000,Illinois,40,  Proprietors employment,1670372
+17000,Illinois,50,    Farm proprietors employment,58497
+17000,Illinois,60,Nonfarm proprietors employment 2/,1611875
+17000,Illinois,,By industry,
+17000,Illinois,70,  Farm employment,73908
+17000,Illinois,80,  Nonfarm employment,7445594
+17000,Illinois,90,    Private nonfarm employment,6610032
+17000,Illinois,100,"      Forestry, fishing, and related activities",12674
+17000,Illinois,200,"      Mining, quarrying, and oil and gas extraction",16243
+17000,Illinois,300,      Utilities,24806
+17000,Illinois,400,      Construction,331794
+17000,Illinois,500,      Manufacturing,575259
+17000,Illinois,600,      Wholesale trade,301515
+17000,Illinois,700,      Retail trade,681843
+17000,Illinois,800,      Transportation and warehousing,478181
+17000,Illinois,900,      Information,105565
+17000,Illinois,1000,      Finance and insurance,528004
+17000,Illinois,1100,      Real estate and rental and leasing,323486
+17000,Illinois,1200,"      Professional, scientific, and technical services",575701
+17000,Illinois,1300,      Management of companies and enterprises,95622
+17000,Illinois,1400,      Administrative and support and waste management and remediation services,502433
+17000,Illinois,1500,      Educational services,197713
+17000,Illinois,1600,      Health care and social assistance,861012
+17000,Illinois,1700,"      Arts, entertainment, and recreation",136429
+17000,Illinois,1800,      Accommodation and food services,434912
+17000,Illinois,1900,      Other services (except government and government enterprises),426840
+17000,Illinois,2000,    Government and government enterprises,835562
+17000,Illinois,2001,      Federal civilian,82030
+17000,Illinois,2002,      Military,47415
+17000,Illinois,2010,      State and local,706117
+17000,Illinois,2011,        State government,147649
+17000,Illinois,2012,        Local government,558468
+18000,Indiana,,Employment by place of work,
+18000,Indiana,10,Total employment (number of jobs),3843507
+18000,Indiana,,By type,
+18000,Indiana,20,  Wage and salary employment,3084225
+18000,Indiana,40,  Proprietors employment,759282
+18000,Indiana,50,    Farm proprietors employment,48559
+18000,Indiana,60,Nonfarm proprietors employment 2/,710723
+18000,Indiana,,By industry,
+18000,Indiana,70,  Farm employment,60773
+18000,Indiana,80,  Nonfarm employment,3782734
+18000,Indiana,90,    Private nonfarm employment,3345591
+18000,Indiana,100,"      Forestry, fishing, and related activities",
+18000,Indiana,200,"      Mining, quarrying, and oil and gas extraction",
+18000,Indiana,300,      Utilities,14351
+18000,Indiana,400,      Construction,217325
+18000,Indiana,500,      Manufacturing,519497
+18000,Indiana,600,      Wholesale trade,127810
+18000,Indiana,700,      Retail trade,374960
+18000,Indiana,800,      Transportation and warehousing,212684
+18000,Indiana,900,      Information,34389
+18000,Indiana,1000,      Finance and insurance,162865
+18000,Indiana,1100,      Real estate and rental and leasing,154271
+18000,Indiana,1200,"      Professional, scientific, and technical services",188810
+18000,Indiana,1300,      Management of companies and enterprises,38346
+18000,Indiana,1400,      Administrative and support and waste management and remediation services,221101
+18000,Indiana,1500,      Educational services,80390
+18000,Indiana,1600,      Health care and social assistance,448197
+18000,Indiana,1700,"      Arts, entertainment, and recreation",63964
+18000,Indiana,1800,      Accommodation and food services,248724
+18000,Indiana,1900,      Other services (except government and government enterprises),218389
+18000,Indiana,2000,    Government and government enterprises,437143
+18000,Indiana,2001,      Federal civilian,41319
+18000,Indiana,2002,      Military,19192
+18000,Indiana,2010,      State and local,376632
+18000,Indiana,2011,        State government,118996
+18000,Indiana,2012,        Local government,257636
+19000,Iowa,,Employment by place of work,
+19000,Iowa,10,Total employment (number of jobs),2010409
+19000,Iowa,,By type,
+19000,Iowa,20,  Wage and salary employment,1566087
+19000,Iowa,40,  Proprietors employment,444322
+19000,Iowa,50,    Farm proprietors employment,69189
+19000,Iowa,60,Nonfarm proprietors employment 2/,375133
+19000,Iowa,,By industry,
+19000,Iowa,70,  Farm employment,88223
+19000,Iowa,80,  Nonfarm employment,1922186
+19000,Iowa,90,    Private nonfarm employment,1658052
+19000,Iowa,100,"      Forestry, fishing, and related activities",16306
+19000,Iowa,200,"      Mining, quarrying, and oil and gas extraction",3407
+19000,Iowa,300,      Utilities,6487
+19000,Iowa,400,      Construction,118621
+19000,Iowa,500,      Manufacturing,223268
+19000,Iowa,600,      Wholesale trade,69876
+19000,Iowa,700,      Retail trade,208996
+19000,Iowa,800,      Transportation and warehousing,87016
+19000,Iowa,900,      Information,23408
+19000,Iowa,1000,      Finance and insurance,138210
+19000,Iowa,1100,      Real estate and rental and leasing,77900
+19000,Iowa,1200,"      Professional, scientific, and technical services",81330
+19000,Iowa,1300,      Management of companies and enterprises,23174
+19000,Iowa,1400,      Administrative and support and waste management and remediation services,82552
+19000,Iowa,1500,      Educational services,41395
+19000,Iowa,1600,      Health care and social assistance,211403
+19000,Iowa,1700,"      Arts, entertainment, and recreation",31527
+19000,Iowa,1800,      Accommodation and food services,112325
+19000,Iowa,1900,      Other services (except government and government enterprises),100851
+19000,Iowa,2000,    Government and government enterprises,264134
+19000,Iowa,2001,      Federal civilian,18153
+19000,Iowa,2002,      Military,11528
+19000,Iowa,2010,      State and local,234453
+19000,Iowa,2011,        State government,67612
+19000,Iowa,2012,        Local government,166841
+20000,Kansas,,Employment by place of work,
+20000,Kansas,10,Total employment (number of jobs),1879086
+20000,Kansas,,By type,
+20000,Kansas,20,  Wage and salary employment,1444520
+20000,Kansas,40,  Proprietors employment,434566
+20000,Kansas,50,    Farm proprietors employment,50008
+20000,Kansas,60,Nonfarm proprietors employment 2/,384558
+20000,Kansas,,By industry,
+20000,Kansas,70,  Farm employment,63989
+20000,Kansas,80,  Nonfarm employment,1815097
+20000,Kansas,90,    Private nonfarm employment,1522178
+20000,Kansas,100,"      Forestry, fishing, and related activities",11132
+20000,Kansas,200,"      Mining, quarrying, and oil and gas extraction",29241
+20000,Kansas,300,      Utilities,6567
+20000,Kansas,400,      Construction,96951
+20000,Kansas,500,      Manufacturing,165577
+20000,Kansas,600,      Wholesale trade,61023
+20000,Kansas,700,      Retail trade,173236
+20000,Kansas,800,      Transportation and warehousing,84647
+20000,Kansas,900,      Information,20967
+20000,Kansas,1000,      Finance and insurance,107133
+20000,Kansas,1100,      Real estate and rental and leasing,74857
+20000,Kansas,1200,"      Professional, scientific, and technical services",108297
+20000,Kansas,1300,      Management of companies and enterprises,25953
+20000,Kansas,1400,      Administrative and support and waste management and remediation services,95846
+20000,Kansas,1500,      Educational services,26674
+20000,Kansas,1600,      Health care and social assistance,204907
+20000,Kansas,1700,"      Arts, entertainment, and recreation",28287
+20000,Kansas,1800,      Accommodation and food services,107939
+20000,Kansas,1900,      Other services (except government and government enterprises),92944
+20000,Kansas,2000,    Government and government enterprises,292919
+20000,Kansas,2001,      Federal civilian,26200
+20000,Kansas,2002,      Military,32827
+20000,Kansas,2010,      State and local,233892
+20000,Kansas,2011,        State government,59513
+20000,Kansas,2012,        Local government,174379
+21000,Kentucky,,Employment by place of work,
+21000,Kentucky,10,Total employment (number of jobs),2472056
+21000,Kentucky,,By type,
+21000,Kentucky,20,  Wage and salary employment,1931665
+21000,Kentucky,40,  Proprietors employment,540391
+21000,Kentucky,50,    Farm proprietors employment,67230
+21000,Kentucky,60,Nonfarm proprietors employment 2/,473161
+21000,Kentucky,,By industry,
+21000,Kentucky,70,  Farm employment,82328
+21000,Kentucky,80,  Nonfarm employment,2389728
+21000,Kentucky,90,    Private nonfarm employment,2047435
+21000,Kentucky,100,"      Forestry, fishing, and related activities",13423
+21000,Kentucky,200,"      Mining, quarrying, and oil and gas extraction",12197
+21000,Kentucky,300,      Utilities,7045
+21000,Kentucky,400,      Construction,133788
+21000,Kentucky,500,      Manufacturing,243780
+21000,Kentucky,600,      Wholesale trade,78407
+21000,Kentucky,700,      Retail trade,248519
+21000,Kentucky,800,      Transportation and warehousing,150367
+21000,Kentucky,900,      Information,25733
+21000,Kentucky,1000,      Finance and insurance,111650
+21000,Kentucky,1100,      Real estate and rental and leasing,98015
+21000,Kentucky,1200,"      Professional, scientific, and technical services",117044
+21000,Kentucky,1300,      Management of companies and enterprises,24915
+21000,Kentucky,1400,      Administrative and support and waste management and remediation services,147509
+21000,Kentucky,1500,      Educational services,36913
+21000,Kentucky,1600,      Health care and social assistance,273645
+21000,Kentucky,1700,"      Arts, entertainment, and recreation",36988
+21000,Kentucky,1800,      Accommodation and food services,159677
+21000,Kentucky,1900,      Other services (except government and government enterprises),127820
+21000,Kentucky,2000,    Government and government enterprises,342293
+21000,Kentucky,2001,      Federal civilian,35506
+21000,Kentucky,2002,      Military,46972
+21000,Kentucky,2010,      State and local,259815
+21000,Kentucky,2011,        State government,94818
+21000,Kentucky,2012,        Local government,164997
+22000,Louisiana,,Employment by place of work,
+22000,Louisiana,10,Total employment (number of jobs),2593066
+22000,Louisiana,,By type,
+22000,Louisiana,20,  Wage and salary employment,1917840
+22000,Louisiana,40,  Proprietors employment,675226
+22000,Louisiana,50,    Farm proprietors employment,23512
+22000,Louisiana,60,Nonfarm proprietors employment 2/,651714
+22000,Louisiana,,By industry,
+22000,Louisiana,70,  Farm employment,31588
+22000,Louisiana,80,  Nonfarm employment,2561478
+22000,Louisiana,90,    Private nonfarm employment,2210209
+22000,Louisiana,100,"      Forestry, fishing, and related activities",18195
+22000,Louisiana,200,"      Mining, quarrying, and oil and gas extraction",46097
+22000,Louisiana,300,      Utilities,9143
+22000,Louisiana,400,      Construction,185957
+22000,Louisiana,500,      Manufacturing,141902
+22000,Louisiana,600,      Wholesale trade,72283
+22000,Louisiana,700,      Retail trade,264439
+22000,Louisiana,800,      Transportation and warehousing,118011
+22000,Louisiana,900,      Information,24833
+22000,Louisiana,1000,      Finance and insurance,111610
+22000,Louisiana,1100,      Real estate and rental and leasing,121537
+22000,Louisiana,1200,"      Professional, scientific, and technical services",142618
+22000,Louisiana,1300,      Management of companies and enterprises,27092
+22000,Louisiana,1400,      Administrative and support and waste management and remediation services,156594
+22000,Louisiana,1500,      Educational services,56860
+22000,Louisiana,1600,      Health care and social assistance,313451
+22000,Louisiana,1700,"      Arts, entertainment, and recreation",45889
+22000,Louisiana,1800,      Accommodation and food services,191123
+22000,Louisiana,1900,      Other services (except government and government enterprises),162575
+22000,Louisiana,2000,    Government and government enterprises,351269
+22000,Louisiana,2001,      Federal civilian,32734
+22000,Louisiana,2002,      Military,33005
+22000,Louisiana,2010,      State and local,285530
+22000,Louisiana,2011,        State government,84376
+22000,Louisiana,2012,        Local government,201154
+23000,Maine,,Employment by place of work,
+23000,Maine,10,Total employment (number of jobs),813207
+23000,Maine,,By type,
+23000,Maine,20,  Wage and salary employment,612542
+23000,Maine,40,  Proprietors employment,200665
+23000,Maine,50,    Farm proprietors employment,6956
+23000,Maine,60,Nonfarm proprietors employment 2/,193709
+23000,Maine,,By industry,
+23000,Maine,70,  Farm employment,10385
+23000,Maine,80,  Nonfarm employment,802822
+23000,Maine,90,    Private nonfarm employment,698369
+23000,Maine,100,"      Forestry, fishing, and related activities",14106
+23000,Maine,200,"      Mining, quarrying, and oil and gas extraction",810
+23000,Maine,300,      Utilities,1835
+23000,Maine,400,      Construction,57523
+23000,Maine,500,      Manufacturing,54756
+23000,Maine,600,      Wholesale trade,21217
+23000,Maine,700,      Retail trade,93498
+23000,Maine,800,      Transportation and warehousing,23518
+23000,Maine,900,      Information,8748
+23000,Maine,1000,      Finance and insurance,35778
+23000,Maine,1100,      Real estate and rental and leasing,37695
+23000,Maine,1200,"      Professional, scientific, and technical services",48440
+23000,Maine,1300,      Management of companies and enterprises,13018
+23000,Maine,1400,      Administrative and support and waste management and remediation services,41233
+23000,Maine,1500,      Educational services,21942
+23000,Maine,1600,      Health care and social assistance,116052
+23000,Maine,1700,"      Arts, entertainment, and recreation",18754
+23000,Maine,1800,      Accommodation and food services,50236
+23000,Maine,1900,      Other services (except government and government enterprises),39210
+23000,Maine,2000,    Government and government enterprises,104453
+23000,Maine,2001,      Federal civilian,16963
+23000,Maine,2002,      Military,4858
+23000,Maine,2010,      State and local,82632
+23000,Maine,2011,        State government,26112
+23000,Maine,2012,        Local government,56520
+24000,Maryland,,Employment by place of work,
+24000,Maryland,10,Total employment (number of jobs),3620521
+24000,Maryland,,By type,
+24000,Maryland,20,  Wage and salary employment,2687534
+24000,Maryland,40,  Proprietors employment,932987
+24000,Maryland,50,    Farm proprietors employment,11036
+24000,Maryland,60,Nonfarm proprietors employment 2/,921951
+24000,Maryland,,By industry,
+24000,Maryland,70,  Farm employment,16486
+24000,Maryland,80,  Nonfarm employment,3604035
+24000,Maryland,90,    Private nonfarm employment,3042342
+24000,Maryland,100,"      Forestry, fishing, and related activities",6608
+24000,Maryland,200,"      Mining, quarrying, and oil and gas extraction",2963
+24000,Maryland,300,      Utilities,10677
+24000,Maryland,400,      Construction,241852
+24000,Maryland,500,      Manufacturing,119096
+24000,Maryland,600,      Wholesale trade,90864
+24000,Maryland,700,      Retail trade,320156
+24000,Maryland,800,      Transportation and warehousing,194910
+24000,Maryland,900,      Information,45637
+24000,Maryland,1000,      Finance and insurance,175181
+24000,Maryland,1100,      Real estate and rental and leasing,188924
+24000,Maryland,1200,"      Professional, scientific, and technical services",368739
+24000,Maryland,1300,      Management of companies and enterprises,31210
+24000,Maryland,1400,      Administrative and support and waste management and remediation services,224333
+24000,Maryland,1500,      Educational services,104007
+24000,Maryland,1600,      Health care and social assistance,434177
+24000,Maryland,1700,"      Arts, entertainment, and recreation",73517
+24000,Maryland,1800,      Accommodation and food services,204950
+24000,Maryland,1900,      Other services (except government and government enterprises),204541
+24000,Maryland,2000,    Government and government enterprises,561693
+24000,Maryland,2001,      Federal civilian,178453
+24000,Maryland,2002,      Military,49116
+24000,Maryland,2010,      State and local,334124
+24000,Maryland,2011,        State government,98440
+24000,Maryland,2012,        Local government,235684
+25000,Massachusetts,,Employment by place of work,
+25000,Massachusetts,10,Total employment (number of jobs),4600345
+25000,Massachusetts,,By type,
+25000,Massachusetts,20,  Wage and salary employment,3514209
+25000,Massachusetts,40,  Proprietors employment,1086136
+25000,Massachusetts,50,    Farm proprietors employment,6191
+25000,Massachusetts,60,Nonfarm proprietors employment 2/,1079945
+25000,Massachusetts,,By industry,
+25000,Massachusetts,70,  Farm employment,10237
+25000,Massachusetts,80,  Nonfarm employment,4590108
+25000,Massachusetts,90,    Private nonfarm employment,4136619
+25000,Massachusetts,100,"      Forestry, fishing, and related activities",9852
+25000,Massachusetts,200,"      Mining, quarrying, and oil and gas extraction",2337
+25000,Massachusetts,300,      Utilities,13841
+25000,Massachusetts,400,      Construction,251936
+25000,Massachusetts,500,      Manufacturing,243351
+25000,Massachusetts,600,      Wholesale trade,129917
+25000,Massachusetts,700,      Retail trade,397964
+25000,Massachusetts,800,      Transportation and warehousing,179211
+25000,Massachusetts,900,      Information,102817
+25000,Massachusetts,1000,      Finance and insurance,303352
+25000,Massachusetts,1100,      Real estate and rental and leasing,217589
+25000,Massachusetts,1200,"      Professional, scientific, and technical services",496852
+25000,Massachusetts,1300,      Management of companies and enterprises,74478
+25000,Massachusetts,1400,      Administrative and support and waste management and remediation services,229933
+25000,Massachusetts,1500,      Educational services,245758
+25000,Massachusetts,1600,      Health care and social assistance,675559
+25000,Massachusetts,1700,"      Arts, entertainment, and recreation",99862
+25000,Massachusetts,1800,      Accommodation and food services,242905
+25000,Massachusetts,1900,      Other services (except government and government enterprises),219105
+25000,Massachusetts,2000,    Government and government enterprises,453489
+25000,Massachusetts,2001,      Federal civilian,47672
+25000,Massachusetts,2002,      Military,18711
+25000,Massachusetts,2010,      State and local,387106
+25000,Massachusetts,2011,        State government,124079
+25000,Massachusetts,2012,        Local government,263027
+26000,Michigan,,Employment by place of work,
+26000,Michigan,10,Total employment (number of jobs),5388167
+26000,Michigan,,By type,
+26000,Michigan,20,  Wage and salary employment,4121786
+26000,Michigan,40,  Proprietors employment,1266381
+26000,Michigan,50,    Farm proprietors employment,41113
+26000,Michigan,60,Nonfarm proprietors employment 2/,1225268
+26000,Michigan,,By industry,
+26000,Michigan,70,  Farm employment,61190
+26000,Michigan,80,  Nonfarm employment,5326977
+26000,Michigan,90,    Private nonfarm employment,4737097
+26000,Michigan,100,"      Forestry, fishing, and related activities",16962
+26000,Michigan,200,"      Mining, quarrying, and oil and gas extraction",11566
+26000,Michigan,300,      Utilities,21073
+26000,Michigan,400,      Construction,277422
+26000,Michigan,500,      Manufacturing,581256
+26000,Michigan,600,      Wholesale trade,177779
+26000,Michigan,700,      Retail trade,531590
+26000,Michigan,800,      Transportation and warehousing,229441
+26000,Michigan,900,      Information,64501
+26000,Michigan,1000,      Finance and insurance,275218
+26000,Michigan,1100,      Real estate and rental and leasing,263721
+26000,Michigan,1200,"      Professional, scientific, and technical services",408085
+26000,Michigan,1300,      Management of companies and enterprises,79078
+26000,Michigan,1400,      Administrative and support and waste management and remediation services,330771
+26000,Michigan,1500,      Educational services,91843
+26000,Michigan,1600,      Health care and social assistance,653308
+26000,Michigan,1700,"      Arts, entertainment, and recreation",89325
+26000,Michigan,1800,      Accommodation and food services,323780
+26000,Michigan,1900,      Other services (except government and government enterprises),310378
+26000,Michigan,2000,    Government and government enterprises,589880
+26000,Michigan,2001,      Federal civilian,54171
+26000,Michigan,2002,      Military,18003
+26000,Michigan,2010,      State and local,517706
+26000,Michigan,2011,        State government,176392
+26000,Michigan,2012,        Local government,341314
+27000,Minnesota,,Employment by place of work,
+27000,Minnesota,10,Total employment (number of jobs),3608149
+27000,Minnesota,,By type,
+27000,Minnesota,20,  Wage and salary employment,2841652
+27000,Minnesota,40,  Proprietors employment,766497
+27000,Minnesota,50,    Farm proprietors employment,58827
+27000,Minnesota,60,Nonfarm proprietors employment 2/,707670
+27000,Minnesota,,By industry,
+27000,Minnesota,70,  Farm employment,77539
+27000,Minnesota,80,  Nonfarm employment,3530610
+27000,Minnesota,90,    Private nonfarm employment,3118783
+27000,Minnesota,100,"      Forestry, fishing, and related activities",14236
+27000,Minnesota,200,"      Mining, quarrying, and oil and gas extraction",8372
+27000,Minnesota,300,      Utilities,12743
+27000,Minnesota,400,      Construction,184964
+27000,Minnesota,500,      Manufacturing,323562
+27000,Minnesota,600,      Wholesale trade,134234
+27000,Minnesota,700,      Retail trade,340193
+27000,Minnesota,800,      Transportation and warehousing,156622
+27000,Minnesota,900,      Information,51426
+27000,Minnesota,1000,      Finance and insurance,229238
+27000,Minnesota,1100,      Real estate and rental and leasing,152459
+27000,Minnesota,1200,"      Professional, scientific, and technical services",232376
+27000,Minnesota,1300,      Management of companies and enterprises,92042
+27000,Minnesota,1400,      Administrative and support and waste management and remediation services,155514
+27000,Minnesota,1500,      Educational services,83380
+27000,Minnesota,1600,      Health care and social assistance,504557
+27000,Minnesota,1700,"      Arts, entertainment, and recreation",73799
+27000,Minnesota,1800,      Accommodation and food services,188602
+27000,Minnesota,1900,      Other services (except government and government enterprises),180464
+27000,Minnesota,2000,    Government and government enterprises,411827
+27000,Minnesota,2001,      Federal civilian,33326
+27000,Minnesota,2002,      Military,19850
+27000,Minnesota,2010,      State and local,358651
+27000,Minnesota,2011,        State government,96261
+27000,Minnesota,2012,        Local government,262390
+28000,Mississippi,,Employment by place of work,
+28000,Mississippi,10,Total employment (number of jobs),1573592
+28000,Mississippi,,By type,
+28000,Mississippi,20,  Wage and salary employment,1173932
+28000,Mississippi,40,  Proprietors employment,399660
+28000,Mississippi,50,    Farm proprietors employment,29638
+28000,Mississippi,60,Nonfarm proprietors employment 2/,370022
+28000,Mississippi,,By industry,
+28000,Mississippi,70,  Farm employment,38004
+28000,Mississippi,80,  Nonfarm employment,1535588
+28000,Mississippi,90,    Private nonfarm employment,1268110
+28000,Mississippi,100,"      Forestry, fishing, and related activities",14513
+28000,Mississippi,200,"      Mining, quarrying, and oil and gas extraction",8672
+28000,Mississippi,300,      Utilities,8149
+28000,Mississippi,400,      Construction,88037
+28000,Mississippi,500,      Manufacturing,145564
+28000,Mississippi,600,      Wholesale trade,38194
+28000,Mississippi,700,      Retail trade,168163
+28000,Mississippi,800,      Transportation and warehousing,75751
+28000,Mississippi,900,      Information,13103
+28000,Mississippi,1000,      Finance and insurance,60039
+28000,Mississippi,1100,      Real estate and rental and leasing,56342
+28000,Mississippi,1200,"      Professional, scientific, and technical services",59130
+28000,Mississippi,1300,      Management of companies and enterprises,13622
+28000,Mississippi,1400,      Administrative and support and waste management and remediation services,102724
+28000,Mississippi,1500,      Educational services,22308
+28000,Mississippi,1600,      Health care and social assistance,156663
+28000,Mississippi,1700,"      Arts, entertainment, and recreation",18909
+28000,Mississippi,1800,      Accommodation and food services,123537
+28000,Mississippi,1900,      Other services (except government and government enterprises),94690
+28000,Mississippi,2000,    Government and government enterprises,267478
+28000,Mississippi,2001,      Federal civilian,26407
+28000,Mississippi,2002,      Military,28662
+28000,Mississippi,2010,      State and local,212409
+28000,Mississippi,2011,        State government,62829
+28000,Mississippi,2012,        Local government,149580
+29000,Missouri,,Employment by place of work,
+29000,Missouri,10,Total employment (number of jobs),3693351
+29000,Missouri,,By type,
+29000,Missouri,20,  Wage and salary employment,2858125
+29000,Missouri,40,  Proprietors employment,835226
+29000,Missouri,50,    Farm proprietors employment,86900
+29000,Missouri,60,Nonfarm proprietors employment 2/,748326
+29000,Missouri,,By industry,
+29000,Missouri,70,  Farm employment,96833
+29000,Missouri,80,  Nonfarm employment,3596518
+29000,Missouri,90,    Private nonfarm employment,3135757
+29000,Missouri,100,"      Forestry, fishing, and related activities",14378
+29000,Missouri,200,"      Mining, quarrying, and oil and gas extraction",7221
+29000,Missouri,300,      Utilities,12259
+29000,Missouri,400,      Construction,203684
+29000,Missouri,500,      Manufacturing,279613
+29000,Missouri,600,      Wholesale trade,129629
+29000,Missouri,700,      Retail trade,363760
+29000,Missouri,800,      Transportation and warehousing,160247
+29000,Missouri,900,      Information,52267
+29000,Missouri,1000,      Finance and insurance,210033
+29000,Missouri,1100,      Real estate and rental and leasing,170296
+29000,Missouri,1200,"      Professional, scientific, and technical services",227143
+29000,Missouri,1300,      Management of companies and enterprises,67399
+29000,Missouri,1400,      Administrative and support and waste management and remediation services,192913
+29000,Missouri,1500,      Educational services,88436
+29000,Missouri,1600,      Health care and social assistance,450965
+29000,Missouri,1700,"      Arts, entertainment, and recreation",63736
+29000,Missouri,1800,      Accommodation and food services,241521
+29000,Missouri,1900,      Other services (except government and government enterprises),200257
+29000,Missouri,2000,    Government and government enterprises,460761
+29000,Missouri,2001,      Federal civilian,61388
+29000,Missouri,2002,      Military,36760
+29000,Missouri,2010,      State and local,362613
+29000,Missouri,2011,        State government,101626
+29000,Missouri,2012,        Local government,260987
+30000,Montana,,Employment by place of work,
+30000,Montana,10,Total employment (number of jobs),684333
+30000,Montana,,By type,
+30000,Montana,20,  Wage and salary employment,486577
+30000,Montana,40,  Proprietors employment,197756
+30000,Montana,50,    Farm proprietors employment,22851
+30000,Montana,60,Nonfarm proprietors employment 2/,174905
+30000,Montana,,By industry,
+30000,Montana,70,  Farm employment,29468
+30000,Montana,80,  Nonfarm employment,654865
+30000,Montana,90,    Private nonfarm employment,559552
+30000,Montana,100,"      Forestry, fishing, and related activities",8164
+30000,Montana,200,"      Mining, quarrying, and oil and gas extraction",9828
+30000,Montana,300,      Utilities,2971
+30000,Montana,400,      Construction,52165
+30000,Montana,500,      Manufacturing,24820
+30000,Montana,600,      Wholesale trade,19025
+30000,Montana,700,      Retail trade,73481
+30000,Montana,800,      Transportation and warehousing,22984
+30000,Montana,900,      Information,7851
+30000,Montana,1000,      Finance and insurance,29042
+30000,Montana,1100,      Real estate and rental and leasing,41800
+30000,Montana,1200,"      Professional, scientific, and technical services",41141
+30000,Montana,1300,      Management of companies and enterprises,2718
+30000,Montana,1400,      Administrative and support and waste management and remediation services,26924
+30000,Montana,1500,      Educational services,9088
+30000,Montana,1600,      Health care and social assistance,78007
+30000,Montana,1700,"      Arts, entertainment, and recreation",19897
+30000,Montana,1800,      Accommodation and food services,54230
+30000,Montana,1900,      Other services (except government and government enterprises),35416
+30000,Montana,2000,    Government and government enterprises,95313
+30000,Montana,2001,      Federal civilian,13682
+30000,Montana,2002,      Military,7825
+30000,Montana,2010,      State and local,73806
+30000,Montana,2011,        State government,26874
+30000,Montana,2012,        Local government,46932
+31000,Nebraska,,Employment by place of work,
+31000,Nebraska,10,Total employment (number of jobs),1305987
+31000,Nebraska,,By type,
+31000,Nebraska,20,  Wage and salary employment,1013516
+31000,Nebraska,40,  Proprietors employment,292471
+31000,Nebraska,50,    Farm proprietors employment,37864
+31000,Nebraska,60,Nonfarm proprietors employment 2/,254607
+31000,Nebraska,,By industry,
+31000,Nebraska,70,  Farm employment,52944
+31000,Nebraska,80,  Nonfarm employment,1253043
+31000,Nebraska,90,    Private nonfarm employment,1080865
+31000,Nebraska,100,"      Forestry, fishing, and related activities",11288
+31000,Nebraska,200,"      Mining, quarrying, and oil and gas extraction",2388
+31000,Nebraska,300,      Utilities,1260
+31000,Nebraska,400,      Construction,81030
+31000,Nebraska,500,      Manufacturing,101325
+31000,Nebraska,600,      Wholesale trade,42805
+31000,Nebraska,700,      Retail trade,126971
+31000,Nebraska,800,      Transportation and warehousing,68394
+31000,Nebraska,900,      Information,18752
+31000,Nebraska,1000,      Finance and insurance,88521
+31000,Nebraska,1100,      Real estate and rental and leasing,55429
+31000,Nebraska,1200,"      Professional, scientific, and technical services",66761
+31000,Nebraska,1300,      Management of companies and enterprises,22353
+31000,Nebraska,1400,      Administrative and support and waste management and remediation services,64277
+31000,Nebraska,1500,      Educational services,22934
+31000,Nebraska,1600,      Health care and social assistance,143173
+31000,Nebraska,1700,"      Arts, entertainment, and recreation",22013
+31000,Nebraska,1800,      Accommodation and food services,74127
+31000,Nebraska,1900,      Other services (except government and government enterprises),67064
+31000,Nebraska,2000,    Government and government enterprises,172178
+31000,Nebraska,2001,      Federal civilian,17452
+31000,Nebraska,2002,      Military,12605
+31000,Nebraska,2010,      State and local,142121
+31000,Nebraska,2011,        State government,34673
+31000,Nebraska,2012,        Local government,107448
+32000,Nevada,,Employment by place of work,
+32000,Nevada,10,Total employment (number of jobs),1770936
+32000,Nevada,,By type,
+32000,Nevada,20,  Wage and salary employment,1317519
+32000,Nevada,40,  Proprietors employment,453417
+32000,Nevada,50,    Farm proprietors employment,2937
+32000,Nevada,60,Nonfarm proprietors employment 2/,450480
+32000,Nevada,,By industry,
+32000,Nevada,70,  Farm employment,5184
+32000,Nevada,80,  Nonfarm employment,1765752
+32000,Nevada,90,    Private nonfarm employment,1588435
+32000,Nevada,100,"      Forestry, fishing, and related activities",1935
+32000,Nevada,200,"      Mining, quarrying, and oil and gas extraction",18358
+32000,Nevada,300,      Utilities,4525
+32000,Nevada,400,      Construction,115479
+32000,Nevada,500,      Manufacturing,62281
+32000,Nevada,600,      Wholesale trade,42193
+32000,Nevada,700,      Retail trade,175398
+32000,Nevada,800,      Transportation and warehousing,123763
+32000,Nevada,900,      Information,19251
+32000,Nevada,1000,      Finance and insurance,97744
+32000,Nevada,1100,      Real estate and rental and leasing,106898
+32000,Nevada,1200,"      Professional, scientific, and technical services",106738
+32000,Nevada,1300,      Management of companies and enterprises,30905
+32000,Nevada,1400,      Administrative and support and waste management and remediation services,126401
+32000,Nevada,1500,      Educational services,20163
+32000,Nevada,1600,      Health care and social assistance,154922
+32000,Nevada,1700,"      Arts, entertainment, and recreation",49675
+32000,Nevada,1800,      Accommodation and food services,244158
+32000,Nevada,1900,      Other services (except government and government enterprises),87648
+32000,Nevada,2000,    Government and government enterprises,177317
+32000,Nevada,2001,      Federal civilian,20983
+32000,Nevada,2002,      Military,19921
+32000,Nevada,2010,      State and local,136413
+32000,Nevada,2011,        State government,36185
+32000,Nevada,2012,        Local government,100228
+33000,New Hampshire,,Employment by place of work,
+33000,New Hampshire,10,Total employment (number of jobs),858502
+33000,New Hampshire,,By type,
+33000,New Hampshire,20,  Wage and salary employment,654255
+33000,New Hampshire,40,  Proprietors employment,204247
+33000,New Hampshire,50,    Farm proprietors employment,3849
+33000,New Hampshire,60,Nonfarm proprietors employment 2/,200398
+33000,New Hampshire,,By industry,
+33000,New Hampshire,70,  Farm employment,5110
+33000,New Hampshire,80,  Nonfarm employment,853392
+33000,New Hampshire,90,    Private nonfarm employment,763087
+33000,New Hampshire,100,"      Forestry, fishing, and related activities",2821
+33000,New Hampshire,200,"      Mining, quarrying, and oil and gas extraction",1285
+33000,New Hampshire,300,      Utilities,2215
+33000,New Hampshire,400,      Construction,55384
+33000,New Hampshire,500,      Manufacturing,71860
+33000,New Hampshire,600,      Wholesale trade,30383
+33000,New Hampshire,700,      Retail trade,106058
+33000,New Hampshire,800,      Transportation and warehousing,23755
+33000,New Hampshire,900,      Information,14319
+33000,New Hampshire,1000,      Finance and insurance,44405
+33000,New Hampshire,1100,      Real estate and rental and leasing,42126
+33000,New Hampshire,1200,"      Professional, scientific, and technical services",64877
+33000,New Hampshire,1300,      Management of companies and enterprises,9933
+33000,New Hampshire,1400,      Administrative and support and waste management and remediation services,45844
+33000,New Hampshire,1500,      Educational services,31845
+33000,New Hampshire,1600,      Health care and social assistance,100646
+33000,New Hampshire,1700,"      Arts, entertainment, and recreation",19922
+33000,New Hampshire,1800,      Accommodation and food services,53324
+33000,New Hampshire,1900,      Other services (except government and government enterprises),42085
+33000,New Hampshire,2000,    Government and government enterprises,90305
+33000,New Hampshire,2001,      Federal civilian,8305
+33000,New Hampshire,2002,      Military,4346
+33000,New Hampshire,2010,      State and local,77654
+33000,New Hampshire,2011,        State government,23614
+33000,New Hampshire,2012,        Local government,54040
+34000,New Jersey,,Employment by place of work,
+34000,New Jersey,10,Total employment (number of jobs),5319600
+34000,New Jersey,,By type,
+34000,New Jersey,20,  Wage and salary employment,3922444
+34000,New Jersey,40,  Proprietors employment,1397156
+34000,New Jersey,50,    Farm proprietors employment,8818
+34000,New Jersey,60,Nonfarm proprietors employment 2/,1388338
+34000,New Jersey,,By industry,
+34000,New Jersey,70,  Farm employment,15676
+34000,New Jersey,80,  Nonfarm employment,5303924
+34000,New Jersey,90,    Private nonfarm employment,4714902
+34000,New Jersey,100,"      Forestry, fishing, and related activities",6426
+34000,New Jersey,200,"      Mining, quarrying, and oil and gas extraction",2873
+34000,New Jersey,300,      Utilities,15433
+34000,New Jersey,400,      Construction,256120
+34000,New Jersey,500,      Manufacturing,253689
+34000,New Jersey,600,      Wholesale trade,225352
+34000,New Jersey,700,      Retail trade,501151
+34000,New Jersey,800,      Transportation and warehousing,332310
+34000,New Jersey,900,      Information,86963
+34000,New Jersey,1000,      Finance and insurance,369715
+34000,New Jersey,1100,      Real estate and rental and leasing,359623
+34000,New Jersey,1200,"      Professional, scientific, and technical services",459518
+34000,New Jersey,1300,      Management of companies and enterprises,96128
+34000,New Jersey,1400,      Administrative and support and waste management and remediation services,332657
+34000,New Jersey,1500,      Educational services,128865
+34000,New Jersey,1600,      Health care and social assistance,637572
+34000,New Jersey,1700,"      Arts, entertainment, and recreation",100358
+34000,New Jersey,1800,      Accommodation and food services,276136
+34000,New Jersey,1900,      Other services (except government and government enterprises),274013
+34000,New Jersey,2000,    Government and government enterprises,589022
+34000,New Jersey,2001,      Federal civilian,50672
+34000,New Jersey,2002,      Military,25636
+34000,New Jersey,2010,      State and local,512714
+34000,New Jersey,2011,        State government,139644
+34000,New Jersey,2012,        Local government,373070
+35000,New Mexico,,Employment by place of work,
+35000,New Mexico,10,Total employment (number of jobs),1069680
+35000,New Mexico,,By type,
+35000,New Mexico,20,  Wage and salary employment,833811
+35000,New Mexico,40,  Proprietors employment,235869
+35000,New Mexico,50,    Farm proprietors employment,21195
+35000,New Mexico,60,Nonfarm proprietors employment 2/,214674
+35000,New Mexico,,By industry,
+35000,New Mexico,70,  Farm employment,28428
+35000,New Mexico,80,  Nonfarm employment,1041252
+35000,New Mexico,90,    Private nonfarm employment,839465
+35000,New Mexico,100,"      Forestry, fishing, and related activities",5950
+35000,New Mexico,200,"      Mining, quarrying, and oil and gas extraction",26135
+35000,New Mexico,300,      Utilities,4490
+35000,New Mexico,400,      Construction,67308
+35000,New Mexico,500,      Manufacturing,32740
+35000,New Mexico,600,      Wholesale trade,23703
+35000,New Mexico,700,      Retail trade,106200
+35000,New Mexico,800,      Transportation and warehousing,34367
+35000,New Mexico,900,      Information,12254
+35000,New Mexico,1000,      Finance and insurance,37322
+35000,New Mexico,1100,      Real estate and rental and leasing,41274
+35000,New Mexico,1200,"      Professional, scientific, and technical services",83380
+35000,New Mexico,1300,      Management of companies and enterprises,6543
+35000,New Mexico,1400,      Administrative and support and waste management and remediation services,55379
+35000,New Mexico,1500,      Educational services,14933
+35000,New Mexico,1600,      Health care and social assistance,134834
+35000,New Mexico,1700,"      Arts, entertainment, and recreation",21307
+35000,New Mexico,1800,      Accommodation and food services,79280
+35000,New Mexico,1900,      Other services (except government and government enterprises),52066
+35000,New Mexico,2000,    Government and government enterprises,201787
+35000,New Mexico,2001,      Federal civilian,30184
+35000,New Mexico,2002,      Military,18007
+35000,New Mexico,2010,      State and local,153596
+35000,New Mexico,2011,        State government,57469
+35000,New Mexico,2012,        Local government,96127
+36000,New York,,Employment by place of work,
+36000,New York,10,Total employment (number of jobs),11872381
+36000,New York,,By type,
+36000,New York,20,  Wage and salary employment,8936714
+36000,New York,40,  Proprietors employment,2935667
+36000,New York,50,    Farm proprietors employment,30581
+36000,New York,60,Nonfarm proprietors employment 2/,2905086
+36000,New York,,By industry,
+36000,New York,70,  Farm employment,51330
+36000,New York,80,  Nonfarm employment,11821051
+36000,New York,90,    Private nonfarm employment,10358132
+36000,New York,100,"      Forestry, fishing, and related activities",14183
+36000,New York,200,"      Mining, quarrying, and oil and gas extraction",10299
+36000,New York,300,      Utilities,39966
+36000,New York,400,      Construction,530471
+36000,New York,500,      Manufacturing,433932
+36000,New York,600,      Wholesale trade,333576
+36000,New York,700,      Retail trade,971106
+36000,New York,800,      Transportation and warehousing,530624
+36000,New York,900,      Information,309408
+36000,New York,1000,      Finance and insurance,996593
+36000,New York,1100,      Real estate and rental and leasing,738332
+36000,New York,1200,"      Professional, scientific, and technical services",989122
+36000,New York,1300,      Management of companies and enterprises,161060
+36000,New York,1400,      Administrative and support and waste management and remediation services,579231
+36000,New York,1500,      Educational services,453750
+36000,New York,1600,      Health care and social assistance,1753177
+36000,New York,1700,"      Arts, entertainment, and recreation",286083
+36000,New York,1800,      Accommodation and food services,595696
+36000,New York,1900,      Other services (except government and government enterprises),631523
+36000,New York,2000,    Government and government enterprises,1462919
+36000,New York,2001,      Federal civilian,120536
+36000,New York,2002,      Military,54981
+36000,New York,2010,      State and local,1287402
+36000,New York,2011,        State government,244877
+36000,New York,2012,        Local government,1042525
+37000,North Carolina,,Employment by place of work,
+37000,North Carolina,10,Total employment (number of jobs),6055314
+37000,North Carolina,,By type,
+37000,North Carolina,20,  Wage and salary employment,4646007
+37000,North Carolina,40,  Proprietors employment,1409307
+37000,North Carolina,50,    Farm proprietors employment,38696
+37000,North Carolina,60,Nonfarm proprietors employment 2/,1370611
+37000,North Carolina,,By industry,
+37000,North Carolina,70,  Farm employment,63847
+37000,North Carolina,80,  Nonfarm employment,5991467
+37000,North Carolina,90,    Private nonfarm employment,5140971
+37000,North Carolina,100,"      Forestry, fishing, and related activities",25092
+37000,North Carolina,200,"      Mining, quarrying, and oil and gas extraction",6314
+37000,North Carolina,300,      Utilities,15637
+37000,North Carolina,400,      Construction,388800
+37000,North Carolina,500,      Manufacturing,475434
+37000,North Carolina,600,      Wholesale trade,200113
+37000,North Carolina,700,      Retail trade,602868
+37000,North Carolina,800,      Transportation and warehousing,256378
+37000,North Carolina,900,      Information,89864
+37000,North Carolina,1000,      Finance and insurance,312943
+37000,North Carolina,1100,      Real estate and rental and leasing,295607
+37000,North Carolina,1200,"      Professional, scientific, and technical services",402627
+37000,North Carolina,1300,      Management of companies and enterprises,90907
+37000,North Carolina,1400,      Administrative and support and waste management and remediation services,409383
+37000,North Carolina,1500,      Educational services,134357
+37000,North Carolina,1600,      Health care and social assistance,581000
+37000,North Carolina,1700,"      Arts, entertainment, and recreation",115864
+37000,North Carolina,1800,      Accommodation and food services,401330
+37000,North Carolina,1900,      Other services (except government and government enterprises),336453
+37000,North Carolina,2000,    Government and government enterprises,850496
+37000,North Carolina,2001,      Federal civilian,77356
+37000,North Carolina,2002,      Military,123425
+37000,North Carolina,2010,      State and local,649715
+37000,North Carolina,2011,        State government,211992
+37000,North Carolina,2012,        Local government,437723
+38000,North Dakota,,Employment by place of work,
+38000,North Dakota,10,Total employment (number of jobs),560682
+38000,North Dakota,,By type,
+38000,North Dakota,20,  Wage and salary employment,431522
+38000,North Dakota,40,  Proprietors employment,129160
+38000,North Dakota,50,    Farm proprietors employment,22971
+38000,North Dakota,60,Nonfarm proprietors employment 2/,106189
+38000,North Dakota,,By industry,
+38000,North Dakota,70,  Farm employment,30308
+38000,North Dakota,80,  Nonfarm employment,530374
+38000,North Dakota,90,    Private nonfarm employment,442739
+38000,North Dakota,100,"      Forestry, fishing, and related activities",5047
+38000,North Dakota,200,"      Mining, quarrying, and oil and gas extraction",19682
+38000,North Dakota,300,      Utilities,3458
+38000,North Dakota,400,      Construction,34925
+38000,North Dakota,500,      Manufacturing,26921
+38000,North Dakota,600,      Wholesale trade,24429
+38000,North Dakota,700,      Retail trade,55131
+38000,North Dakota,800,      Transportation and warehousing,25109
+38000,North Dakota,900,      Information,6558
+38000,North Dakota,1000,      Finance and insurance,28235
+38000,North Dakota,1100,      Real estate and rental and leasing,26364
+38000,North Dakota,1200,"      Professional, scientific, and technical services",23107
+38000,North Dakota,1300,      Management of companies and enterprises,4372
+38000,North Dakota,1400,      Administrative and support and waste management and remediation services,17152
+38000,North Dakota,1500,      Educational services,6240
+38000,North Dakota,1600,      Health care and social assistance,69113
+38000,North Dakota,1700,"      Arts, entertainment, and recreation",8608
+38000,North Dakota,1800,      Accommodation and food services,32749
+38000,North Dakota,1900,      Other services (except government and government enterprises),25539
+38000,North Dakota,2000,    Government and government enterprises,87635
+38000,North Dakota,2001,      Federal civilian,9497
+38000,North Dakota,2002,      Military,12252
+38000,North Dakota,2010,      State and local,65886
+38000,North Dakota,2011,        State government,23445
+38000,North Dakota,2012,        Local government,42441
+39000,Ohio,,Employment by place of work,
+39000,Ohio,10,Total employment (number of jobs),6853595
+39000,Ohio,,By type,
+39000,Ohio,20,  Wage and salary employment,5368638
+39000,Ohio,40,  Proprietors employment,1484957
+39000,Ohio,50,    Farm proprietors employment,70582
+39000,Ohio,60,Nonfarm proprietors employment 2/,1414375
+39000,Ohio,,By industry,
+39000,Ohio,70,  Farm employment,85018
+39000,Ohio,80,  Nonfarm employment,6768577
+39000,Ohio,90,    Private nonfarm employment,5983870
+39000,Ohio,100,"      Forestry, fishing, and related activities",15386
+39000,Ohio,200,"      Mining, quarrying, and oil and gas extraction",20174
+39000,Ohio,300,      Utilities,19461
+39000,Ohio,400,      Construction,359364
+39000,Ohio,500,      Manufacturing,682100
+39000,Ohio,600,      Wholesale trade,244757
+39000,Ohio,700,      Retail trade,654278
+39000,Ohio,800,      Transportation and warehousing,361289
+39000,Ohio,900,      Information,80462
+39000,Ohio,1000,      Finance and insurance,368669
+39000,Ohio,1100,      Real estate and rental and leasing,292596
+39000,Ohio,1200,"      Professional, scientific, and technical services",398812
+39000,Ohio,1300,      Management of companies and enterprises,148850
+39000,Ohio,1400,      Administrative and support and waste management and remediation services,395810
+39000,Ohio,1500,      Educational services,136638
+39000,Ohio,1600,      Health care and social assistance,880766
+39000,Ohio,1700,"      Arts, entertainment, and recreation",123469
+39000,Ohio,1800,      Accommodation and food services,445147
+39000,Ohio,1900,      Other services (except government and government enterprises),355842
+39000,Ohio,2000,    Government and government enterprises,784707
+39000,Ohio,2001,      Federal civilian,81884
+39000,Ohio,2002,      Military,35583
+39000,Ohio,2010,      State and local,667240
+39000,Ohio,2011,        State government,168288
+39000,Ohio,2012,        Local government,498952
+40000,Oklahoma,,Employment by place of work,
+40000,Oklahoma,10,Total employment (number of jobs),2263126
+40000,Oklahoma,,By type,
+40000,Oklahoma,20,  Wage and salary employment,1662294
+40000,Oklahoma,40,  Proprietors employment,600832
+40000,Oklahoma,50,    Farm proprietors employment,70610
+40000,Oklahoma,60,Nonfarm proprietors employment 2/,530222
+40000,Oklahoma,,By industry,
+40000,Oklahoma,70,  Farm employment,78763
+40000,Oklahoma,80,  Nonfarm employment,2184363
+40000,Oklahoma,90,    Private nonfarm employment,1815949
+40000,Oklahoma,100,"      Forestry, fishing, and related activities",11087
+40000,Oklahoma,200,"      Mining, quarrying, and oil and gas extraction",76471
+40000,Oklahoma,300,      Utilities,9939
+40000,Oklahoma,400,      Construction,135237
+40000,Oklahoma,500,      Manufacturing,140819
+40000,Oklahoma,600,      Wholesale trade,60877
+40000,Oklahoma,700,      Retail trade,222767
+40000,Oklahoma,800,      Transportation and warehousing,94537
+40000,Oklahoma,900,      Information,24100
+40000,Oklahoma,1000,      Finance and insurance,110673
+40000,Oklahoma,1100,      Real estate and rental and leasing,92679
+40000,Oklahoma,1200,"      Professional, scientific, and technical services",115507
+40000,Oklahoma,1300,      Management of companies and enterprises,25016
+40000,Oklahoma,1400,      Administrative and support and waste management and remediation services,131560
+40000,Oklahoma,1500,      Educational services,29512
+40000,Oklahoma,1600,      Health care and social assistance,220425
+40000,Oklahoma,1700,"      Arts, entertainment, and recreation",33857
+40000,Oklahoma,1800,      Accommodation and food services,156118
+40000,Oklahoma,1900,      Other services (except government and government enterprises),124768
+40000,Oklahoma,2000,    Government and government enterprises,368414
+40000,Oklahoma,2001,      Federal civilian,51097
+40000,Oklahoma,2002,      Military,35465
+40000,Oklahoma,2010,      State and local,281852
+40000,Oklahoma,2011,        State government,77577
+40000,Oklahoma,2012,        Local government,204275
+41000,Oregon,,Employment by place of work,
+41000,Oregon,10,Total employment (number of jobs),2493784
+41000,Oregon,,By type,
+41000,Oregon,20,  Wage and salary employment,1902097
+41000,Oregon,40,  Proprietors employment,591687
+41000,Oregon,50,    Farm proprietors employment,35023
+41000,Oregon,60,Nonfarm proprietors employment 2/,556664
+41000,Oregon,,By industry,
+41000,Oregon,70,  Farm employment,62499
+41000,Oregon,80,  Nonfarm employment,2431285
+41000,Oregon,90,    Private nonfarm employment,2145096
+41000,Oregon,100,"      Forestry, fishing, and related activities",32288
+41000,Oregon,200,"      Mining, quarrying, and oil and gas extraction",4552
+41000,Oregon,300,      Utilities,5183
+41000,Oregon,400,      Construction,145910
+41000,Oregon,500,      Manufacturing,200402
+41000,Oregon,600,      Wholesale trade,81511
+41000,Oregon,700,      Retail trade,249774
+41000,Oregon,800,      Transportation and warehousing,115456
+41000,Oregon,900,      Information,41616
+41000,Oregon,1000,      Finance and insurance,100321
+41000,Oregon,1100,      Real estate and rental and leasing,122173
+41000,Oregon,1200,"      Professional, scientific, and technical services",172247
+41000,Oregon,1300,      Management of companies and enterprises,51352
+41000,Oregon,1400,      Administrative and support and waste management and remediation services,125742
+41000,Oregon,1500,      Educational services,48482
+41000,Oregon,1600,      Health care and social assistance,306908
+41000,Oregon,1700,"      Arts, entertainment, and recreation",55508
+41000,Oregon,1800,      Accommodation and food services,160907
+41000,Oregon,1900,      Other services (except government and government enterprises),124764
+41000,Oregon,2000,    Government and government enterprises,286189
+41000,Oregon,2001,      Federal civilian,29268
+41000,Oregon,2002,      Military,11269
+41000,Oregon,2010,      State and local,245652
+41000,Oregon,2011,        State government,41558
+41000,Oregon,2012,        Local government,204094
+42000,Pennsylvania,,Employment by place of work,
+42000,Pennsylvania,10,Total employment (number of jobs),7413333
+42000,Pennsylvania,,By type,
+42000,Pennsylvania,20,  Wage and salary employment,5832095
+42000,Pennsylvania,40,  Proprietors employment,1581238
+42000,Pennsylvania,50,    Farm proprietors employment,48532
+42000,Pennsylvania,60,Nonfarm proprietors employment 2/,1532706
+42000,Pennsylvania,,By industry,
+42000,Pennsylvania,70,  Farm employment,65730
+42000,Pennsylvania,80,  Nonfarm employment,7347603
+42000,Pennsylvania,90,    Private nonfarm employment,6591249
+42000,Pennsylvania,100,"      Forestry, fishing, and related activities",18035
+42000,Pennsylvania,200,"      Mining, quarrying, and oil and gas extraction",35484
+42000,Pennsylvania,300,      Utilities,24712
+42000,Pennsylvania,400,      Construction,383989
+42000,Pennsylvania,500,      Manufacturing,566615
+42000,Pennsylvania,600,      Wholesale trade,224533
+42000,Pennsylvania,700,      Retail trade,703611
+42000,Pennsylvania,800,      Transportation and warehousing,403638
+42000,Pennsylvania,900,      Information,100757
+42000,Pennsylvania,1000,      Finance and insurance,435445
+42000,Pennsylvania,1100,      Real estate and rental and leasing,327320
+42000,Pennsylvania,1200,"      Professional, scientific, and technical services",521012
+42000,Pennsylvania,1300,      Management of companies and enterprises,138340
+42000,Pennsylvania,1400,      Administrative and support and waste management and remediation services,367011
+42000,Pennsylvania,1500,      Educational services,299792
+42000,Pennsylvania,1600,      Health care and social assistance,1111585
+42000,Pennsylvania,1700,"      Arts, entertainment, and recreation",138999
+42000,Pennsylvania,1800,      Accommodation and food services,398673
+42000,Pennsylvania,1900,      Other services (except government and government enterprises),391698
+42000,Pennsylvania,2000,    Government and government enterprises,756354
+42000,Pennsylvania,2001,      Federal civilian,101442
+42000,Pennsylvania,2002,      Military,31973
+42000,Pennsylvania,2010,      State and local,622939
+42000,Pennsylvania,2011,        State government,189056
+42000,Pennsylvania,2012,        Local government,433883
+44000,Rhode Island,,Employment by place of work,
+44000,Rhode Island,10,Total employment (number of jobs),615726
+44000,Rhode Island,,By type,
+44000,Rhode Island,20,  Wage and salary employment,475074
+44000,Rhode Island,40,  Proprietors employment,140652
+44000,Rhode Island,50,    Farm proprietors employment,933
+44000,Rhode Island,60,Nonfarm proprietors employment 2/,139719
+44000,Rhode Island,,By industry,
+44000,Rhode Island,70,  Farm employment,1396
+44000,Rhode Island,80,  Nonfarm employment,614330
+44000,Rhode Island,90,    Private nonfarm employment,541032
+44000,Rhode Island,100,"      Forestry, fishing, and related activities",
+44000,Rhode Island,200,"      Mining, quarrying, and oil and gas extraction",
+44000,Rhode Island,300,      Utilities,1743
+44000,Rhode Island,400,      Construction,31879
+44000,Rhode Island,500,      Manufacturing,39630
+44000,Rhode Island,600,      Wholesale trade,16692
+44000,Rhode Island,700,      Retail trade,53423
+44000,Rhode Island,800,      Transportation and warehousing,22280
+44000,Rhode Island,900,      Information,6887
+44000,Rhode Island,1000,      Finance and insurance,39373
+44000,Rhode Island,1100,      Real estate and rental and leasing,31231
+44000,Rhode Island,1200,"      Professional, scientific, and technical services",42683
+44000,Rhode Island,1300,      Management of companies and enterprises,13769
+44000,Rhode Island,1400,      Administrative and support and waste management and remediation services,34938
+44000,Rhode Island,1500,      Educational services,32148
+44000,Rhode Island,1600,      Health care and social assistance,84490
+44000,Rhode Island,1700,"      Arts, entertainment, and recreation",13525
+44000,Rhode Island,1800,      Accommodation and food services,42551
+44000,Rhode Island,1900,      Other services (except government and government enterprises),31398
+44000,Rhode Island,2000,    Government and government enterprises,73298
+44000,Rhode Island,2001,      Federal civilian,11534
+44000,Rhode Island,2002,      Military,7287
+44000,Rhode Island,2010,      State and local,54477
+44000,Rhode Island,2011,        State government,23516
+44000,Rhode Island,2012,        Local government,30961
+45000,South Carolina,,Employment by place of work,
+45000,South Carolina,10,Total employment (number of jobs),2825222
+45000,South Carolina,,By type,
+45000,South Carolina,20,  Wage and salary employment,2159636
+45000,South Carolina,40,  Proprietors employment,665586
+45000,South Carolina,50,    Farm proprietors employment,21096
+45000,South Carolina,60,Nonfarm proprietors employment 2/,644490
+45000,South Carolina,,By industry,
+45000,South Carolina,70,  Farm employment,26763
+45000,South Carolina,80,  Nonfarm employment,2798459
+45000,South Carolina,90,    Private nonfarm employment,2391096
+45000,South Carolina,100,"      Forestry, fishing, and related activities",12351
+45000,South Carolina,200,"      Mining, quarrying, and oil and gas extraction",4302
+45000,South Carolina,300,      Utilities,11944
+45000,South Carolina,400,      Construction,170283
+45000,South Carolina,500,      Manufacturing,254654
+45000,South Carolina,600,      Wholesale trade,81053
+45000,South Carolina,700,      Retail trade,301574
+45000,South Carolina,800,      Transportation and warehousing,116061
+45000,South Carolina,900,      Information,31920
+45000,South Carolina,1000,      Finance and insurance,127570
+45000,South Carolina,1100,      Real estate and rental and leasing,142047
+45000,South Carolina,1200,"      Professional, scientific, and technical services",162488
+45000,South Carolina,1300,      Management of companies and enterprises,29188
+45000,South Carolina,1400,      Administrative and support and waste management and remediation services,216856
+45000,South Carolina,1500,      Educational services,43913
+45000,South Carolina,1600,      Health care and social assistance,240540
+45000,South Carolina,1700,"      Arts, entertainment, and recreation",52273
+45000,South Carolina,1800,      Accommodation and food services,221794
+45000,South Carolina,1900,      Other services (except government and government enterprises),170285
+45000,South Carolina,2000,    Government and government enterprises,407363
+45000,South Carolina,2001,      Federal civilian,36723
+45000,South Carolina,2002,      Military,48322
+45000,South Carolina,2010,      State and local,322318
+45000,South Carolina,2011,        State government,97452
+45000,South Carolina,2012,        Local government,224866
+46000,South Dakota,,Employment by place of work,
+46000,South Dakota,10,Total employment (number of jobs),606699
+46000,South Dakota,,By type,
+46000,South Dakota,20,  Wage and salary employment,450634
+46000,South Dakota,40,  Proprietors employment,156065
+46000,South Dakota,50,    Farm proprietors employment,25630
+46000,South Dakota,60,Nonfarm proprietors employment 2/,130435
+46000,South Dakota,,By industry,
+46000,South Dakota,70,  Farm employment,33262
+46000,South Dakota,80,  Nonfarm employment,573437
+46000,South Dakota,90,    Private nonfarm employment,488125
+46000,South Dakota,100,"      Forestry, fishing, and related activities",6031
+46000,South Dakota,200,"      Mining, quarrying, and oil and gas extraction",2119
+46000,South Dakota,300,      Utilities,2058
+46000,South Dakota,400,      Construction,37041
+46000,South Dakota,500,      Manufacturing,45536
+46000,South Dakota,600,      Wholesale trade,22472
+46000,South Dakota,700,      Retail trade,64327
+46000,South Dakota,800,      Transportation and warehousing,18286
+46000,South Dakota,900,      Information,6448
+46000,South Dakota,1000,      Finance and insurance,41493
+46000,South Dakota,1100,      Real estate and rental and leasing,28775
+46000,South Dakota,1200,"      Professional, scientific, and technical services",24275
+46000,South Dakota,1300,      Management of companies and enterprises,5951
+46000,South Dakota,1400,      Administrative and support and waste management and remediation services,19128
+46000,South Dakota,1500,      Educational services,9768
+46000,South Dakota,1600,      Health care and social assistance,73044
+46000,South Dakota,1700,"      Arts, entertainment, and recreation",11741
+46000,South Dakota,1800,      Accommodation and food services,39522
+46000,South Dakota,1900,      Other services (except government and government enterprises),30110
+46000,South Dakota,2000,    Government and government enterprises,85312
+46000,South Dakota,2001,      Federal civilian,11592
+46000,South Dakota,2002,      Military,8294
+46000,South Dakota,2010,      State and local,65426
+46000,South Dakota,2011,        State government,18437
+46000,South Dakota,2012,        Local government,46989
+47000,Tennessee,,Employment by place of work,
+47000,Tennessee,10,Total employment (number of jobs),4121399
+47000,Tennessee,,By type,
+47000,Tennessee,20,  Wage and salary employment,3074175
+47000,Tennessee,40,  Proprietors employment,1047224
+47000,Tennessee,50,    Farm proprietors employment,63905
+47000,Tennessee,60,Nonfarm proprietors employment 2/,983319
+47000,Tennessee,,By industry,
+47000,Tennessee,70,  Farm employment,74491
+47000,Tennessee,80,  Nonfarm employment,4046908
+47000,Tennessee,90,    Private nonfarm employment,3596151
+47000,Tennessee,100,"      Forestry, fishing, and related activities",11429
+47000,Tennessee,200,"      Mining, quarrying, and oil and gas extraction",7038
+47000,Tennessee,300,      Utilities,4310
+47000,Tennessee,400,      Construction,244548
+47000,Tennessee,500,      Manufacturing,350824
+47000,Tennessee,600,      Wholesale trade,129981
+47000,Tennessee,700,      Retail trade,411311
+47000,Tennessee,800,      Transportation and warehousing,252406
+47000,Tennessee,900,      Information,56310
+47000,Tennessee,1000,      Finance and insurance,204665
+47000,Tennessee,1100,      Real estate and rental and leasing,178170
+47000,Tennessee,1200,"      Professional, scientific, and technical services",240341
+47000,Tennessee,1300,      Management of companies and enterprises,56103
+47000,Tennessee,1400,      Administrative and support and waste management and remediation services,304351
+47000,Tennessee,1500,      Educational services,83472
+47000,Tennessee,1600,      Health care and social assistance,432512
+47000,Tennessee,1700,"      Arts, entertainment, and recreation",89064
+47000,Tennessee,1800,      Accommodation and food services,292496
+47000,Tennessee,1900,      Other services (except government and government enterprises),246820
+47000,Tennessee,2000,    Government and government enterprises,450757
+47000,Tennessee,2001,      Federal civilian,52372
+47000,Tennessee,2002,      Military,21119
+47000,Tennessee,2010,      State and local,377266
+47000,Tennessee,2011,        State government,94303
+47000,Tennessee,2012,        Local government,282963
+48000,Texas,,Employment by place of work,
+48000,Texas,10,Total employment (number of jobs),17706662
+48000,Texas,,By type,
+48000,Texas,20,  Wage and salary employment,12734126
+48000,Texas,40,  Proprietors employment,4972536
+48000,Texas,50,    Farm proprietors employment,223654
+48000,Texas,60,Nonfarm proprietors employment 2/,4748882
+48000,Texas,,By industry,
+48000,Texas,70,  Farm employment,277839
+48000,Texas,80,  Nonfarm employment,17428823
+48000,Texas,90,    Private nonfarm employment,15343374
+48000,Texas,100,"      Forestry, fishing, and related activities",65500
+48000,Texas,200,"      Mining, quarrying, and oil and gas extraction",338234
+48000,Texas,300,      Utilities,57708
+48000,Texas,400,      Construction,1266854
+48000,Texas,500,      Manufacturing,951426
+48000,Texas,600,      Wholesale trade,649181
+48000,Texas,700,      Retail trade,1634613
+48000,Texas,800,      Transportation and warehousing,937074
+48000,Texas,900,      Information,252865
+48000,Texas,1000,      Finance and insurance,1183307
+48000,Texas,1100,      Real estate and rental and leasing,840088
+48000,Texas,1200,"      Professional, scientific, and technical services",1275314
+48000,Texas,1300,      Management of companies and enterprises,213418
+48000,Texas,1400,      Administrative and support and waste management and remediation services,1175012
+48000,Texas,1500,      Educational services,285610
+48000,Texas,1600,      Health care and social assistance,1716173
+48000,Texas,1700,"      Arts, entertainment, and recreation",272679
+48000,Texas,1800,      Accommodation and food services,1211931
+48000,Texas,1900,      Other services (except government and government enterprises),1016387
+48000,Texas,2000,    Government and government enterprises,2085449
+48000,Texas,2001,      Federal civilian,215169
+48000,Texas,2002,      Military,175061
+48000,Texas,2010,      State and local,1695219
+48000,Texas,2011,        State government,382419
+48000,Texas,2012,        Local government,1312800
+49000,Utah,,Employment by place of work,
+49000,Utah,10,Total employment (number of jobs),2135409
+49000,Utah,,By type,
+49000,Utah,20,  Wage and salary employment,1609961
+49000,Utah,40,  Proprietors employment,525448
+49000,Utah,50,    Farm proprietors employment,15668
+49000,Utah,60,Nonfarm proprietors employment 2/,509780
+49000,Utah,,By industry,
+49000,Utah,70,  Farm employment,20925
+49000,Utah,80,  Nonfarm employment,2114484
+49000,Utah,90,    Private nonfarm employment,1848195
+49000,Utah,100,"      Forestry, fishing, and related activities",4357
+49000,Utah,200,"      Mining, quarrying, and oil and gas extraction",11800
+49000,Utah,300,      Utilities,4991
+49000,Utah,400,      Construction,148450
+49000,Utah,500,      Manufacturing,146553
+49000,Utah,600,      Wholesale trade,59689
+49000,Utah,700,      Retail trade,214054
+49000,Utah,800,      Transportation and warehousing,91972
+49000,Utah,900,      Information,44143
+49000,Utah,1000,      Finance and insurance,150810
+49000,Utah,1100,      Real estate and rental and leasing,127842
+49000,Utah,1200,"      Professional, scientific, and technical services",170995
+49000,Utah,1300,      Management of companies and enterprises,33772
+49000,Utah,1400,      Administrative and support and waste management and remediation services,115536
+49000,Utah,1500,      Educational services,72598
+49000,Utah,1600,      Health care and social assistance,179386
+49000,Utah,1700,"      Arts, entertainment, and recreation",43456
+49000,Utah,1800,      Accommodation and food services,123570
+49000,Utah,1900,      Other services (except government and government enterprises),104221
+49000,Utah,2000,    Government and government enterprises,266289
+49000,Utah,2001,      Federal civilian,39372
+49000,Utah,2002,      Military,16949
+49000,Utah,2010,      State and local,209968
+49000,Utah,2011,        State government,84941
+49000,Utah,2012,        Local government,125027
+50000,Vermont,,Employment by place of work,
+50000,Vermont,10,Total employment (number of jobs),409390
+50000,Vermont,,By type,
+50000,Vermont,20,  Wage and salary employment,300255
+50000,Vermont,40,  Proprietors employment,109135
+50000,Vermont,50,    Farm proprietors employment,6434
+50000,Vermont,60,Nonfarm proprietors employment 2/,102701
+50000,Vermont,,By industry,
+50000,Vermont,70,  Farm employment,9182
+50000,Vermont,80,  Nonfarm employment,400208
+50000,Vermont,90,    Private nonfarm employment,345159
+50000,Vermont,100,"      Forestry, fishing, and related activities",3415
+50000,Vermont,200,"      Mining, quarrying, and oil and gas extraction",1069
+50000,Vermont,300,      Utilities,1528
+50000,Vermont,400,      Construction,27883
+50000,Vermont,500,      Manufacturing,31722
+50000,Vermont,600,      Wholesale trade,9967
+50000,Vermont,700,      Retail trade,43039
+50000,Vermont,800,      Transportation and warehousing,9333
+50000,Vermont,900,      Information,5425
+50000,Vermont,1000,      Finance and insurance,15005
+50000,Vermont,1100,      Real estate and rental and leasing,17027
+50000,Vermont,1200,"      Professional, scientific, and technical services",28135
+50000,Vermont,1300,      Management of companies and enterprises,2378
+50000,Vermont,1400,      Administrative and support and waste management and remediation services,18202
+50000,Vermont,1500,      Educational services,16891
+50000,Vermont,1600,      Health care and social assistance,57045
+50000,Vermont,1700,"      Arts, entertainment, and recreation",10625
+50000,Vermont,1800,      Accommodation and food services,26204
+50000,Vermont,1900,      Other services (except government and government enterprises),20266
+50000,Vermont,2000,    Government and government enterprises,55049
+50000,Vermont,2001,      Federal civilian,7375
+50000,Vermont,2002,      Military,3772
+50000,Vermont,2010,      State and local,43902
+50000,Vermont,2011,        State government,15841
+50000,Vermont,2012,        Local government,28061
+51000,Virginia,,Employment by place of work,
+51000,Virginia,10,Total employment (number of jobs),5224997
+51000,Virginia,,By type,
+51000,Virginia,20,  Wage and salary employment,4033051
+51000,Virginia,40,  Proprietors employment,1191946
+51000,Virginia,50,    Farm proprietors employment,37246
+51000,Virginia,60,Nonfarm proprietors employment 2/,1154700
+51000,Virginia,,By industry,
+51000,Virginia,70,  Farm employment,45466
+51000,Virginia,80,  Nonfarm employment,5179531
+51000,Virginia,90,    Private nonfarm employment,4324822
+51000,Virginia,100,"      Forestry, fishing, and related activities",13467
+51000,Virginia,200,"      Mining, quarrying, and oil and gas extraction",8517
+51000,Virginia,300,      Utilities,11672
+51000,Virginia,400,      Construction,310670
+51000,Virginia,500,      Manufacturing,248197
+51000,Virginia,600,      Wholesale trade,118522
+51000,Virginia,700,      Retail trade,487580
+51000,Virginia,800,      Transportation and warehousing,241143
+51000,Virginia,900,      Information,80851
+51000,Virginia,1000,      Finance and insurance,245628
+51000,Virginia,1100,      Real estate and rental and leasing,245460
+51000,Virginia,1200,"      Professional, scientific, and technical services",584709
+51000,Virginia,1300,      Management of companies and enterprises,86474
+51000,Virginia,1400,      Administrative and support and waste management and remediation services,316220
+51000,Virginia,1500,      Educational services,105756
+51000,Virginia,1600,      Health care and social assistance,506819
+51000,Virginia,1700,"      Arts, entertainment, and recreation",98892
+51000,Virginia,1800,      Accommodation and food services,311383
+51000,Virginia,1900,      Other services (except government and government enterprises),302862
+51000,Virginia,2000,    Government and government enterprises,854709
+51000,Virginia,2001,      Federal civilian,206191
+51000,Virginia,2002,      Military,121155
+51000,Virginia,2010,      State and local,527363
+51000,Virginia,2011,        State government,159151
+51000,Virginia,2012,        Local government,368212
+53000,Washington,,Employment by place of work,
+53000,Washington,10,Total employment (number of jobs),4436065
+53000,Washington,,By type,
+53000,Washington,20,  Wage and salary employment,3494303
+53000,Washington,40,  Proprietors employment,941762
+53000,Washington,50,    Farm proprietors employment,31190
+53000,Washington,60,Nonfarm proprietors employment 2/,910572
+53000,Washington,,By industry,
+53000,Washington,70,  Farm employment,87719
+53000,Washington,80,  Nonfarm employment,4348346
+53000,Washington,90,    Private nonfarm employment,3705290
+53000,Washington,100,"      Forestry, fishing, and related activities",42345
+53000,Washington,200,"      Mining, quarrying, and oil and gas extraction",6133
+53000,Washington,300,      Utilities,5875
+53000,Washington,400,      Construction,273502
+53000,Washington,500,      Manufacturing,288996
+53000,Washington,600,      Wholesale trade,141830
+53000,Washington,700,      Retail trade,463139
+53000,Washington,800,      Transportation and warehousing,204225
+53000,Washington,900,      Information,161319
+53000,Washington,1000,      Finance and insurance,183589
+53000,Washington,1100,      Real estate and rental and leasing,216262
+53000,Washington,1200,"      Professional, scientific, and technical services",339934
+53000,Washington,1300,      Management of companies and enterprises,49325
+53000,Washington,1400,      Administrative and support and waste management and remediation services,212243
+53000,Washington,1500,      Educational services,74718
+53000,Washington,1600,      Health care and social assistance,491903
+53000,Washington,1700,"      Arts, entertainment, and recreation",85795
+53000,Washington,1800,      Accommodation and food services,250110
+53000,Washington,1900,      Other services (except government and government enterprises),214047
+53000,Washington,2000,    Government and government enterprises,643056
+53000,Washington,2001,      Federal civilian,78615
+53000,Washington,2002,      Military,67920
+53000,Washington,2010,      State and local,496521
+53000,Washington,2011,        State government,156181
+53000,Washington,2012,        Local government,340340
+54000,West Virginia,,Employment by place of work,
+54000,West Virginia,10,Total employment (number of jobs),841019
+54000,West Virginia,,By type,
+54000,West Virginia,20,  Wage and salary employment,677914
+54000,West Virginia,40,  Proprietors employment,163105
+54000,West Virginia,50,    Farm proprietors employment,21006
+54000,West Virginia,60,Nonfarm proprietors employment 2/,142099
+54000,West Virginia,,By industry,
+54000,West Virginia,70,  Farm employment,22552
+54000,West Virginia,80,  Nonfarm employment,818467
+54000,West Virginia,90,    Private nonfarm employment,669012
+54000,West Virginia,100,"      Forestry, fishing, and related activities",2867
+54000,West Virginia,200,"      Mining, quarrying, and oil and gas extraction",23029
+54000,West Virginia,300,      Utilities,5201
+54000,West Virginia,400,      Construction,42979
+54000,West Virginia,500,      Manufacturing,46942
+54000,West Virginia,600,      Wholesale trade,20976
+54000,West Virginia,700,      Retail trade,93865
+54000,West Virginia,800,      Transportation and warehousing,28273
+54000,West Virginia,900,      Information,8966
+54000,West Virginia,1000,      Finance and insurance,26508
+54000,West Virginia,1100,      Real estate and rental and leasing,26925
+54000,West Virginia,1200,"      Professional, scientific, and technical services",38469
+54000,West Virginia,1300,      Management of companies and enterprises,8535
+54000,West Virginia,1400,      Administrative and support and waste management and remediation services,42103
+54000,West Virginia,1500,      Educational services,11414
+54000,West Virginia,1600,      Health care and social assistance,126530
+54000,West Virginia,1700,"      Arts, entertainment, and recreation",12989
+54000,West Virginia,1800,      Accommodation and food services,59293
+54000,West Virginia,1900,      Other services (except government and government enterprises),43148
+54000,West Virginia,2000,    Government and government enterprises,149455
+54000,West Virginia,2001,      Federal civilian,25490
+54000,West Virginia,2002,      Military,8214
+54000,West Virginia,2010,      State and local,115751
+54000,West Virginia,2011,        State government,50410
+54000,West Virginia,2012,        Local government,65341
+55000,Wisconsin,,Employment by place of work,
+55000,Wisconsin,10,Total employment (number of jobs),3582636
+55000,Wisconsin,,By type,
+55000,Wisconsin,20,  Wage and salary employment,2879755
+55000,Wisconsin,40,  Proprietors employment,702881
+55000,Wisconsin,50,    Farm proprietors employment,59075
+55000,Wisconsin,60,Nonfarm proprietors employment 2/,643806
+55000,Wisconsin,,By industry,
+55000,Wisconsin,70,  Farm employment,81697
+55000,Wisconsin,80,  Nonfarm employment,3500939
+55000,Wisconsin,90,    Private nonfarm employment,3080329
+55000,Wisconsin,100,"      Forestry, fishing, and related activities",
+55000,Wisconsin,200,"      Mining, quarrying, and oil and gas extraction",
+55000,Wisconsin,300,      Utilities,8892
+55000,Wisconsin,400,      Construction,187931
+55000,Wisconsin,500,      Manufacturing,474237
+55000,Wisconsin,600,      Wholesale trade,129547
+55000,Wisconsin,700,      Retail trade,358363
+55000,Wisconsin,800,      Transportation and warehousing,147600
+55000,Wisconsin,900,      Information,52200
+55000,Wisconsin,1000,      Finance and insurance,191544
+55000,Wisconsin,1100,      Real estate and rental and leasing,138689
+55000,Wisconsin,1200,"      Professional, scientific, and technical services",177014
+55000,Wisconsin,1300,      Management of companies and enterprises,68187
+55000,Wisconsin,1400,      Administrative and support and waste management and remediation services,165352
+55000,Wisconsin,1500,      Educational services,66642
+55000,Wisconsin,1600,      Health care and social assistance,430040
+55000,Wisconsin,1700,"      Arts, entertainment, and recreation",63995
+55000,Wisconsin,1800,      Accommodation and food services,218332
+55000,Wisconsin,1900,      Other services (except government and government enterprises),180241
+55000,Wisconsin,2000,    Government and government enterprises,420610
+55000,Wisconsin,2001,      Federal civilian,30859
+55000,Wisconsin,2002,      Military,15910
+55000,Wisconsin,2010,      State and local,373841
+55000,Wisconsin,2011,        State government,114402
+55000,Wisconsin,2012,        Local government,259439
+56000,Wyoming,,Employment by place of work,
+56000,Wyoming,10,Total employment (number of jobs),401871
+56000,Wyoming,,By type,
+56000,Wyoming,20,  Wage and salary employment,280328
+56000,Wyoming,40,  Proprietors employment,121543
+56000,Wyoming,50,    Farm proprietors employment,10662
+56000,Wyoming,60,Nonfarm proprietors employment 2/,110881
+56000,Wyoming,,By industry,
+56000,Wyoming,70,  Farm employment,14497
+56000,Wyoming,80,  Nonfarm employment,387374
+56000,Wyoming,90,    Private nonfarm employment,313415
+56000,Wyoming,100,"      Forestry, fishing, and related activities",
+56000,Wyoming,200,"      Mining, quarrying, and oil and gas extraction",20637
+56000,Wyoming,300,      Utilities,
+56000,Wyoming,400,      Construction,29830
+56000,Wyoming,500,      Manufacturing,12102
+56000,Wyoming,600,      Wholesale trade,8875
+56000,Wyoming,700,      Retail trade,37959
+56000,Wyoming,800,      Transportation and warehousing,15553
+56000,Wyoming,900,      Information,4250
+56000,Wyoming,1000,      Finance and insurance,25046
+56000,Wyoming,1100,      Real estate and rental and leasing,27005
+56000,Wyoming,1200,"      Professional, scientific, and technical services",18738
+56000,Wyoming,1300,      Management of companies and enterprises,2042
+56000,Wyoming,1400,      Administrative and support and waste management and remediation services,13781
+56000,Wyoming,1500,      Educational services,3922
+56000,Wyoming,1600,      Health care and social assistance,30508
+56000,Wyoming,1700,"      Arts, entertainment, and recreation",7678
+56000,Wyoming,1800,      Accommodation and food services,31992
+56000,Wyoming,1900,      Other services (except government and government enterprises),17495
+56000,Wyoming,2000,    Government and government enterprises,73959
+56000,Wyoming,2001,      Federal civilian,7806
+56000,Wyoming,2002,      Military,6383
+56000,Wyoming,2010,      State and local,59770
+56000,Wyoming,2011,        State government,15078
+56000,Wyoming,2012,        Local government,44692
+91000,New England,,Employment by place of work,
+91000,New England,10,Total employment (number of jobs),9514667
+91000,New England,,By type,
+91000,New England,20,  Wage and salary employment,7184698
+91000,New England,40,  Proprietors employment,2329969
+91000,New England,50,    Farm proprietors employment,29381
+91000,New England,60,Nonfarm proprietors employment 2/,2300588
+91000,New England,,By industry,
+91000,New England,70,  Farm employment,45710
+91000,New England,80,  Nonfarm employment,9468957
+91000,New England,90,    Private nonfarm employment,8454612
+91000,New England,100,"      Forestry, fishing, and related activities",
+91000,New England,200,"      Mining, quarrying, and oil and gas extraction",
+91000,New England,300,      Utilities,26915
+91000,New England,400,      Construction,538443
+91000,New England,500,      Manufacturing,603931
+91000,New England,600,      Wholesale trade,271294
+91000,New England,700,      Retail trade,892682
+91000,New England,800,      Transportation and warehousing,348400
+91000,New England,900,      Information,174681
+91000,New England,1000,      Finance and insurance,638282
+91000,New England,1100,      Real estate and rental and leasing,470301
+91000,New England,1200,"      Professional, scientific, and technical services",840084
+91000,New England,1300,      Management of companies and enterprises,150369
+91000,New England,1400,      Administrative and support and waste management and remediation services,484739
+91000,New England,1500,      Educational services,436262
+91000,New England,1600,      Health care and social assistance,1338370
+91000,New England,1700,"      Arts, entertainment, and recreation",208955
+91000,New England,1800,      Accommodation and food services,527460
+91000,New England,1900,      Other services (except government and government enterprises),461077
+91000,New England,2000,    Government and government enterprises,1014345
+91000,New England,2001,      Federal civilian,111082
+91000,New England,2002,      Military,50963
+91000,New England,2010,      State and local,852300
+91000,New England,2011,        State government,286091
+91000,New England,2012,        Local government,566209
+92000,Mideast,,Employment by place of work,
+92000,Mideast,10,Total employment (number of jobs),29683758
+92000,Mideast,,By type,
+92000,Mideast,20,  Wage and salary employment,22584375
+92000,Mideast,40,  Proprietors employment,7099383
+92000,Mideast,50,    Farm proprietors employment,100850
+92000,Mideast,60,Nonfarm proprietors employment 2/,6998533
+92000,Mideast,,By industry,
+92000,Mideast,70,  Farm employment,152303
+92000,Mideast,80,  Nonfarm employment,29531455
+92000,Mideast,90,    Private nonfarm employment,25836513
+92000,Mideast,100,"      Forestry, fishing, and related activities",46509
+92000,Mideast,200,"      Mining, quarrying, and oil and gas extraction",52128
+92000,Mideast,300,      Utilities,
+92000,Mideast,400,      Construction,1464323
+92000,Mideast,500,      Manufacturing,
+92000,Mideast,600,      Wholesale trade,892348
+92000,Mideast,700,      Retail trade,2578287
+92000,Mideast,800,      Transportation and warehousing,1503777
+92000,Mideast,900,      Information,570372
+92000,Mideast,1000,      Finance and insurance,2072802
+92000,Mideast,1100,      Real estate and rental and leasing,1677255
+92000,Mideast,1200,"      Professional, scientific, and technical services",2522744
+92000,Mideast,1300,      Management of companies and enterprises,441863
+92000,Mideast,1400,      Administrative and support and waste management and remediation services,1586044
+92000,Mideast,1500,      Educational services,1050273
+92000,Mideast,1600,      Health care and social assistance,4087581
+92000,Mideast,1700,"      Arts, entertainment, and recreation",625850
+92000,Mideast,1800,      Accommodation and food services,1557240
+92000,Mideast,1900,      Other services (except government and government enterprises),1609600
+92000,Mideast,2000,    Government and government enterprises,3694942
+92000,Mideast,2001,      Federal civilian,650737
+92000,Mideast,2002,      Military,184714
+92000,Mideast,2010,      State and local,2859491
+92000,Mideast,2011,        State government,704260
+92000,Mideast,2012,        Local government,2155231
+93000,Great Lakes,,Employment by place of work,
+93000,Great Lakes,10,Total employment (number of jobs),27187407
+93000,Great Lakes,,By type,
+93000,Great Lakes,20,  Wage and salary employment,21303534
+93000,Great Lakes,40,  Proprietors employment,5883873
+93000,Great Lakes,50,    Farm proprietors employment,277826
+93000,Great Lakes,60,Nonfarm proprietors employment 2/,5606047
+93000,Great Lakes,,By industry,
+93000,Great Lakes,70,  Farm employment,362586
+93000,Great Lakes,80,  Nonfarm employment,26824821
+93000,Great Lakes,90,    Private nonfarm employment,23756919
+93000,Great Lakes,100,"      Forestry, fishing, and related activities",
+93000,Great Lakes,200,"      Mining, quarrying, and oil and gas extraction",
+93000,Great Lakes,300,      Utilities,88583
+93000,Great Lakes,400,      Construction,1373836
+93000,Great Lakes,500,      Manufacturing,2832349
+93000,Great Lakes,600,      Wholesale trade,981408
+93000,Great Lakes,700,      Retail trade,2601034
+93000,Great Lakes,800,      Transportation and warehousing,1429195
+93000,Great Lakes,900,      Information,337117
+93000,Great Lakes,1000,      Finance and insurance,1526300
+93000,Great Lakes,1100,      Real estate and rental and leasing,1172763
+93000,Great Lakes,1200,"      Professional, scientific, and technical services",1748422
+93000,Great Lakes,1300,      Management of companies and enterprises,430083
+93000,Great Lakes,1400,      Administrative and support and waste management and remediation services,1615467
+93000,Great Lakes,1500,      Educational services,573226
+93000,Great Lakes,1600,      Health care and social assistance,3273323
+93000,Great Lakes,1700,"      Arts, entertainment, and recreation",477182
+93000,Great Lakes,1800,      Accommodation and food services,1670895
+93000,Great Lakes,1900,      Other services (except government and government enterprises),1491690
+93000,Great Lakes,2000,    Government and government enterprises,3067902
+93000,Great Lakes,2001,      Federal civilian,290263
+93000,Great Lakes,2002,      Military,136103
+93000,Great Lakes,2010,      State and local,2641536
+93000,Great Lakes,2011,        State government,725727
+93000,Great Lakes,2012,        Local government,1915809
+94000,Plains,,Employment by place of work,
+94000,Plains,10,Total employment (number of jobs),13664363
+94000,Plains,,By type,
+94000,Plains,20,  Wage and salary employment,10606056
+94000,Plains,40,  Proprietors employment,3058307
+94000,Plains,50,    Farm proprietors employment,351389
+94000,Plains,60,Nonfarm proprietors employment 2/,2706918
+94000,Plains,,By industry,
+94000,Plains,70,  Farm employment,443098
+94000,Plains,80,  Nonfarm employment,13221265
+94000,Plains,90,    Private nonfarm employment,11446499
+94000,Plains,100,"      Forestry, fishing, and related activities",78418
+94000,Plains,200,"      Mining, quarrying, and oil and gas extraction",72430
+94000,Plains,300,      Utilities,44832
+94000,Plains,400,      Construction,757216
+94000,Plains,500,      Manufacturing,1165802
+94000,Plains,600,      Wholesale trade,484468
+94000,Plains,700,      Retail trade,1332614
+94000,Plains,800,      Transportation and warehousing,600321
+94000,Plains,900,      Information,179826
+94000,Plains,1000,      Finance and insurance,842863
+94000,Plains,1100,      Real estate and rental and leasing,586080
+94000,Plains,1200,"      Professional, scientific, and technical services",763289
+94000,Plains,1300,      Management of companies and enterprises,241244
+94000,Plains,1400,      Administrative and support and waste management and remediation services,627382
+94000,Plains,1500,      Educational services,278827
+94000,Plains,1600,      Health care and social assistance,1657162
+94000,Plains,1700,"      Arts, entertainment, and recreation",239711
+94000,Plains,1800,      Accommodation and food services,796785
+94000,Plains,1900,      Other services (except government and government enterprises),697229
+94000,Plains,2000,    Government and government enterprises,1774766
+94000,Plains,2001,      Federal civilian,177608
+94000,Plains,2002,      Military,134116
+94000,Plains,2010,      State and local,1463042
+94000,Plains,2011,        State government,401567
+94000,Plains,2012,        Local government,1061475
+95000,Southeast,,Employment by place of work,
+95000,Southeast,10,Total employment (number of jobs),49065400
+95000,Southeast,,By type,
+95000,Southeast,20,  Wage and salary employment,36426450
+95000,Southeast,40,  Proprietors employment,12638950
+95000,Southeast,50,    Farm proprietors employment,448887
+95000,Southeast,60,Nonfarm proprietors employment 2/,12190063
+95000,Southeast,,By industry,
+95000,Southeast,70,  Farm employment,618522
+95000,Southeast,80,  Nonfarm employment,48446878
+95000,Southeast,90,    Private nonfarm employment,42165715
+95000,Southeast,100,"      Forestry, fishing, and related activities",228624
+95000,Southeast,200,"      Mining, quarrying, and oil and gas extraction",158774
+95000,Southeast,300,      Utilities,142337
+95000,Southeast,400,      Construction,3030097
+95000,Southeast,500,      Manufacturing,3174597
+95000,Southeast,600,      Wholesale trade,1497946
+95000,Southeast,700,      Retail trade,4925051
+95000,Southeast,800,      Transportation and warehousing,2447302
+95000,Southeast,900,      Information,679813
+95000,Southeast,1000,      Finance and insurance,2579113
+95000,Southeast,1100,      Real estate and rental and leasing,2509365
+95000,Southeast,1200,"      Professional, scientific, and technical services",3380581
+95000,Southeast,1300,      Management of companies and enterprises,646456
+95000,Southeast,1400,      Administrative and support and waste management and remediation services,3471793
+95000,Southeast,1500,      Educational services,911576
+95000,Southeast,1600,      Health care and social assistance,5049906
+95000,Southeast,1700,"      Arts, entertainment, and recreation",965844
+95000,Southeast,1800,      Accommodation and food services,3388006
+95000,Southeast,1900,      Other services (except government and government enterprises),2978534
+95000,Southeast,2000,    Government and government enterprises,6281163
+95000,Southeast,2001,      Federal civilian,827637
+95000,Southeast,2002,      Military,671906
+95000,Southeast,2010,      State and local,4781620
+95000,Southeast,2011,        State government,1469788
+95000,Southeast,2012,        Local government,3311832
+96000,Southwest,,Employment by place of work,
+96000,Southwest,10,Total employment (number of jobs),24959504
+96000,Southwest,,By type,
+96000,Southwest,20,  Wage and salary employment,18198050
+96000,Southwest,40,  Proprietors employment,6761454
+96000,Southwest,50,    Farm proprietors employment,333304
+96000,Southwest,60,Nonfarm proprietors employment 2/,6428150
+96000,Southwest,,By industry,
+96000,Southwest,70,  Farm employment,415340
+96000,Southwest,80,  Nonfarm employment,24544164
+96000,Southwest,90,    Private nonfarm employment,21436331
+96000,Southwest,100,"      Forestry, fishing, and related activities",97161
+96000,Southwest,200,"      Mining, quarrying, and oil and gas extraction",459359
+96000,Southwest,300,      Utilities,84880
+96000,Southwest,400,      Construction,1714345
+96000,Southwest,500,      Manufacturing,1316546
+96000,Southwest,600,      Wholesale trade,845418
+96000,Southwest,700,      Retail trade,2356545
+96000,Southwest,800,      Transportation and warehousing,1269805
+96000,Southwest,900,      Information,346446
+96000,Southwest,1000,      Finance and insurance,1611082
+96000,Southwest,1100,      Real estate and rental and leasing,1202322
+96000,Southwest,1200,"      Professional, scientific, and technical services",1734313
+96000,Southwest,1300,      Management of companies and enterprises,287235
+96000,Southwest,1400,      Administrative and support and waste management and remediation services,1670189
+96000,Southwest,1500,      Educational services,410818
+96000,Southwest,1600,      Health care and social assistance,2522485
+96000,Southwest,1700,"      Arts, entertainment, and recreation",403370
+96000,Southwest,1800,      Accommodation and food services,1714009
+96000,Southwest,1900,      Other services (except government and government enterprises),1390003
+96000,Southwest,2000,    Government and government enterprises,3107833
+96000,Southwest,2001,      Federal civilian,355424
+96000,Southwest,2002,      Military,264248
+96000,Southwest,2010,      State and local,2488161
+96000,Southwest,2011,        State government,612981
+96000,Southwest,2012,        Local government,1875180
+97000,Rocky Mountain,,Employment by place of work,
+97000,Rocky Mountain,10,Total employment (number of jobs),8121658
+97000,Rocky Mountain,,By type,
+97000,Rocky Mountain,20,  Wage and salary employment,5955804
+97000,Rocky Mountain,40,  Proprietors employment,2165854
+97000,Rocky Mountain,50,    Farm proprietors employment,107022
+97000,Rocky Mountain,60,Nonfarm proprietors employment 2/,2058832
+97000,Rocky Mountain,,By industry,
+97000,Rocky Mountain,70,  Farm employment,154714
+97000,Rocky Mountain,80,  Nonfarm employment,7966944
+97000,Rocky Mountain,90,    Private nonfarm employment,6889868
+97000,Rocky Mountain,100,"      Forestry, fishing, and related activities",
+97000,Rocky Mountain,200,"      Mining, quarrying, and oil and gas extraction",87844
+97000,Rocky Mountain,300,      Utilities,
+97000,Rocky Mountain,400,      Construction,582276
+97000,Rocky Mountain,500,      Manufacturing,421360
+97000,Rocky Mountain,600,      Wholesale trade,239984
+97000,Rocky Mountain,700,      Retail trade,767835
+97000,Rocky Mountain,800,      Transportation and warehousing,339507
+97000,Rocky Mountain,900,      Information,155299
+97000,Rocky Mountain,1000,      Finance and insurance,493471
+97000,Rocky Mountain,1100,      Real estate and rental and leasing,487551
+97000,Rocky Mountain,1200,"      Professional, scientific, and technical services",665112
+97000,Rocky Mountain,1300,      Management of companies and enterprises,98587
+97000,Rocky Mountain,1400,      Administrative and support and waste management and remediation services,424418
+97000,Rocky Mountain,1500,      Educational services,182779
+97000,Rocky Mountain,1600,      Health care and social assistance,753942
+97000,Rocky Mountain,1700,"      Arts, entertainment, and recreation",186133
+97000,Rocky Mountain,1800,      Accommodation and food services,532308
+97000,Rocky Mountain,1900,      Other services (except government and government enterprises),405370
+97000,Rocky Mountain,2000,    Government and government enterprises,1077076
+97000,Rocky Mountain,2001,      Federal civilian,129319
+97000,Rocky Mountain,2002,      Military,96753
+97000,Rocky Mountain,2010,      State and local,851004
+97000,Rocky Mountain,2011,        State government,288160
+97000,Rocky Mountain,2012,        Local government,562844
+98000,Far West,,Employment by place of work,
+98000,Far West,10,Total employment (number of jobs),33104843
+98000,Far West,,By type,
+98000,Far West,20,  Wage and salary employment,24969033
+98000,Far West,40,  Proprietors employment,8135810
+98000,Far West,50,    Farm proprietors employment,133341
+98000,Far West,60,Nonfarm proprietors employment 2/,8002469
+98000,Far West,,By industry,
+98000,Far West,70,  Farm employment,398727
+98000,Far West,80,  Nonfarm employment,32706116
+98000,Far West,90,    Private nonfarm employment,28592143
+98000,Far West,100,"      Forestry, fishing, and related activities",
+98000,Far West,200,"      Mining, quarrying, and oil and gas extraction",78892
+98000,Far West,300,      Utilities,85810
+98000,Far West,400,      Construction,1817464
+98000,Far West,500,      Manufacturing,
+98000,Far West,600,      Wholesale trade,1021134
+98000,Far West,700,      Retail trade,2953652
+98000,Far West,800,      Transportation and warehousing,1773293
+98000,Far West,900,      Information,849246
+98000,Far West,1000,      Finance and insurance,1583087
+98000,Far West,1100,      Real estate and rental and leasing,1721663
+98000,Far West,1200,"      Professional, scientific, and technical services",2734555
+98000,Far West,1300,      Management of companies and enterprises,421763
+98000,Far West,1400,      Administrative and support and waste management and remediation services,1983468
+98000,Far West,1500,      Educational services,687739
+98000,Far West,1600,      Health care and social assistance,3841331
+98000,Far West,1700,"      Arts, entertainment, and recreation",745955
+98000,Far West,1800,      Accommodation and food services,2196197
+98000,Far West,1900,      Other services (except government and government enterprises),1817297
+98000,Far West,2000,    Government and government enterprises,4113973
+98000,Far West,2001,      Federal civilian,439930
+98000,Far West,2002,      Military,374197
+98000,Far West,2010,      State and local,3299846
+98000,Far West,2011,        State government,881426
+98000,Far West,2012,        Local government,2418420
